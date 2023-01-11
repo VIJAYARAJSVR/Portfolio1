@@ -1,5 +1,5 @@
 import logo from '../images/logo.svg';
-
+import {Link} from "react-router-dom";
 // @ts-ignore
 const RecentProjects = ({project}) => {
     return (
@@ -11,8 +11,13 @@ const RecentProjects = ({project}) => {
                         style={{color: "black", fontWeight: "bold"}}>{project.name.toUpperCase()}</h5>
                 </div>
                 <div className="card-footer">
-                    {/*<Link to={{ pathname: "https://google.com/" }} target="_blank">  See Full Details</Link>*/}
-                    <a href={project.website} className="btn btn-primary" target="_blank">See Full Details</a>
+                    {/*<Link to="" target="_blank">  See Full Details</Link>*/}
+                    {/*<Link to="/AllProjects" className="btn btn-primary" target="_blank">See Full Details </Link>*/}
+
+                    <Link to={"/ProjectDetail:" + project.id} className="btn btn-primary" target="_blank">See Full
+                        Details </Link>
+                    {/*external link*/}
+                    {/*<a href={project.website} className="btn btn-primary" target="_blank">See Full Details</a>*/}
                 </div>
             </div>
         </div>

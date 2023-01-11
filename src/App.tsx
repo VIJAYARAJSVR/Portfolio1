@@ -7,6 +7,7 @@ import AppHeader from "./components/header";
 import AppFooter from "./components/footer";
 import NotFound from "./components/notfound";
 import Home from "./components/home";
+import ProjectDetails from "./components/projectdetails";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 <Route path="Portfolio" element={<Home/>}/>
                 <Route path="About" element={<About/>}/>
                 <Route path="AllProjects" element={<Projects projectList={projectList}/>}/>
+                <Route path=":projectId" element={<ProjectDetails/>}/>
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
 

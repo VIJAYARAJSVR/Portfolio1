@@ -11,9 +11,9 @@ const AppHeader = () => {
 
                 {/*<Link to={}> </Link>*/}
                 {/*<NavLink to="/Home" className={({ isActive }) => (isActive ? 'active' : 'inactive')}> Home </NavLink>*/}
-                <NavLink to="Home" className={getClass}> Home </NavLink>
-                <NavLink to="AllProjects" className={getClass}> All Projects </NavLink>
-                <NavLink to="About" className={getClass}> About </NavLink>
+                <NavLink to="/Home" className={getClass}> Home </NavLink>
+                <NavLink to="/AllProjects" className={getClass}> All Projects </NavLink>
+                <NavLink to="/About" className={getClass}> About </NavLink>
 
             </nav>
         </header>

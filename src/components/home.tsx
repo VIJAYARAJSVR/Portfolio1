@@ -16,7 +16,6 @@ const Home = () => {
         <div className="App-header">
             <h1 className="mt-5 mb-5">VIJAYARAJ SUYAMBU</h1>
 
-
             <div className="container-sm container-md container-lg container-xl container-xxl">
                 <ContactDetails/>
                 <Description/>
@@ -45,7 +44,7 @@ const ContactDetails = () => {
                 <div className="row  row-cols-2 mt-2"><MdEmail className="w-auto "/><a
                     className="fst-italic text-start w-75 ContactDetailsLink"
                     href="mailto:Vijayfullstackdeveloper@gmail.com"
-                    target="_blank"><h3>Email me</h3></a></div>
+                    target="_blank"><h3>Vijayfullstackdeveloper@gmail.com</h3></a></div>
                 <div className="row  row-cols-2 mt-2"><VscGithub className="w-auto"/><a
                     className=" fst-italic text-start w-75 ContactDetailsLink"
                     href="https://github.com/VIJAYARAJSVR"
@@ -90,7 +89,9 @@ const Description = () => {
 
 const RecentProjectList = () => {
     return (
-        <>  <h2 className="mt-5">Recent Projects</h2>
+        <>
+            {/*<h3 className="mt-5">Recent Projects <span className="ms-2" style={{ fontSize:'20px' }}>(Click to see full details)</span> </h3>*/}
+            <h3 className="mt-5">Recent Projects </h3><h4 className="mt-4">(Click to see full details)</h4>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 {
                     projectList.map((project, index) => {
