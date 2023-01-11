@@ -20,10 +20,12 @@ function App() {
                 <Route path="Portfolio" element={<Home/>}/>
                 <Route path="About" element={<About/>}/>
                 <Route path="AllProjects" element={<Projects projectList={projectList}/>}/>
-                <Route path=":projectId" element={<ProjectDetails/>}/>
+                {/*<Route path=":projectId" element={<ProjectDetails/>}/>*/}
+                <Route path="/ProjectDetail/:projectId" element={<ProjectDetails/>}/>
+                {/*<Route path="ProjectDetail" element={<ProjectDetails/>}/>*/}
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
-
+            x
             <AppFooter/>
 
         </div>

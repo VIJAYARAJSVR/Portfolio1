@@ -1,7 +1,11 @@
 import logo from '../images/logo.svg';
 import {Link} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
+import {useRef} from "react";
 // @ts-ignore
 const RecentProjects = ({project}) => {
+
+
     return (
         <div className="col">
             <div className="card h-200 mb-5 mt-2">
@@ -10,12 +14,17 @@ const RecentProjects = ({project}) => {
                     <h5 className="card-title"
                         style={{color: "black", fontWeight: "bold"}}>{project.name.toUpperCase()}</h5>
                 </div>
+
                 <div className="card-footer">
                     {/*<Link to="" target="_blank">  See Full Details</Link>*/}
                     {/*<Link to="/AllProjects" className="btn btn-primary" target="_blank">See Full Details </Link>*/}
-
-                    <Link to={"/ProjectDetail:" + project.id} className="btn btn-primary" target="_blank">See Full
+                    {/*<Link to={"/ProjectDetail/" + project.id} className="btn btn-primary" target="_blank">See Full*/}
+                    {/*    Details </Link>*/}
+                    {/*<Link to={project.id} className="btn btn-primary" target="_blank">See Full*/}
+                    {/*    Details </Link>*/}
+                    <Link to={"/ProjectDetail/" + project.id} className="btn btn-primary" target="_blank">See Full
                         Details </Link>
+
                     {/*external link*/}
                     {/*<a href={project.website} className="btn btn-primary" target="_blank">See Full Details</a>*/}
                 </div>
@@ -27,4 +36,3 @@ const RecentProjects = ({project}) => {
 
 
 export default RecentProjects
-

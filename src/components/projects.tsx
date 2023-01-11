@@ -62,7 +62,7 @@ const Projects = ({projectList}) => {
                                             {/*<Link to={{ pathname: "https://google.com/" }} target="_blank">  See Full Details</Link>*/}
                                             {/*<a href={project.website} className="btn btn-primary" target="_blank">See*/}
                                             {/*    Full Details</a>*/}
-                                            <Link to={"/ProjectDetail:" + project.id} className="btn btn-primary"
+                                            <Link to={"/ProjectDetail/" + project.id} className="btn btn-primary"
                                                   target="_blank">See Full Details </Link>
                                         </div>
                                     </div>

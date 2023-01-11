@@ -1,11 +1,17 @@
 import projectList from '../data/project_details.json'
 
 import {useParams} from 'react-router-dom'
+import {useLocation} from 'react-router-dom'
 
 const ProjectDetails = () => {
-    // console.log(useParams());
+    // const {state} = useLocation();
+    console.log(useParams());
     const {projectId} = useParams();
-    const ExactProjectId = Number(projectId?.split(":")[1].toString());
+    // const ExactProjectId = Number(projectId?.split(":")[1].toString());
+    const ExactProjectId = Number(projectId);
+
+    // const ExactProjectId = state.id;
+    // console.log(ExactProjectId);
     const projectDetail = getProjectDetail(ExactProjectId);
 
     return (
