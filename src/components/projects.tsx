@@ -63,7 +63,7 @@ const Projects = ({projectList}) => {
                                             {/*<a href={project.website} className="btn btn-primary" target="_blank">See*/}
                                             {/*    Full Details</a>*/}
                                             <Link to={"/ProjectDetail/" + project.id} className="btn btn-primary"
-                                                  target="_blank">See Full Details </Link>
+                                            >See Full Details </Link>
                                         </div>
                                     </div>
                                 </div>
