@@ -16,21 +16,37 @@ function App() {
         <div className="App" style={{backgroundColor: "#282c34"}}>
             <AppHeader/>
             <Routes>
-                <Route path="Home" element={<Home/>}/>
+
                 <Route path="Portfolio" element={<Home/>}/>
-                <Route path="About" element={<About/>}/>
-                <Route path="AllProjects" element={<Projects projectList={projectList}/>}/>
-                {/*<Route path=":projectId" element={<ProjectDetails/>}/>*/}
-                <Route path="/ProjectDetail/:projectId" element={<ProjectDetails/>}/>
-                {/*<Route path="ProjectDetail" element={<ProjectDetails/>}/>*/}
+                <Route path="Portfolio/Home" element={<Home/>}/>
+                <Route path="Portfolio/AllProjects" element={<Projects projectList={projectList}/>}/>
+                <Route path="Portfolio/ProjectDetail/:projectId" element={<ProjectDetails/>}/>
+                <Route path="Portfolio/About" element={<About/>}/>
                 <Route path="*" element={<NotFound/>}/>
+
             </Routes>
-            x
-            <AppFooter/>
+
+            {/*<Routes>*/}
+            {/*    <Route path="/" element={<Home/>}/>*/}
+            {/*    /!*<Route path="Home" element={<Home/>}/>*!/*/}
+            {/*    <Route path="Portfolio" element={<Home/>}>*/}
+            {/*        /!*<Route path="Home" element={<Home/>}/>*!/*/}
+            {/*        /!*<Route path="Portfolio" element={<Home/>}/>*!/*/}
+            {/*        /!*<Route path="About" element={<About/>}/>*!/*/}
+            {/*        <Route path="AllProjects" element={<Projects projectList={projectList}/>}/>*/}
+            {/*        /!*<Route path=":projectId" element={<ProjectDetails/>}/>*!/*/}
+            {/*        <Route path="/ProjectDetail/:projectId" element={<ProjectDetails/>}/>*/}
+            {/*        /!*<Route path="ProjectDetail" element={<ProjectDetails/>}/>*!/*/}
+            {/*        <Route path="*" element={<NotFound/>}/>*/}
+            {/*    </Route>*/}
+            {/*</Routes>*/}
+
+            {/*<AppFooter/>*/}
 
         </div>
     );
 }
+
 export default App;
 
 

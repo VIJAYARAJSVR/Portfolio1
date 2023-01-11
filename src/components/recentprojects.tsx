@@ -16,13 +16,8 @@ const RecentProjects = ({project}) => {
                 </div>
 
                 <div className="card-footer">
-                    {/*<Link to="" target="_blank">  See Full Details</Link>*/}
-                    {/*<Link to="/AllProjects" className="btn btn-primary" target="_blank">See Full Details </Link>*/}
-                    {/*<Link to={"/ProjectDetail/" + project.id} className="btn btn-primary" target="_blank">See Full*/}
-                    {/*    Details </Link>*/}
-                    {/*<Link to={project.id} className="btn btn-primary" target="_blank">See Full*/}
-                    {/*    Details </Link>*/}
-                    <Link to={"/ProjectDetail/" + project.id} className="btn btn-primary">See Full
+
+                    <Link to={"/Portfolio/ProjectDetail/" + project.id} className="btn btn-primary">See Full
                         Details </Link>
 
                     {/*external link*/}
