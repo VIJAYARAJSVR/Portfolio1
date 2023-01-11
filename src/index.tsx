@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM, {createRoot} from 'react-dom/client';
+import {BrowserRouter} from "react-router-dom"
+import 'bootstrap/dist/css/bootstrap.css';
+// Put any other imports below so that CSS from your
+// components takes precedence over default styles.
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -14,9 +19,11 @@ const root = createRoot(rootElement!);
 
 
 root.render(
-    <React.StrictMode>
-        <App/>
-    </React.StrictMode>
+    <BrowserRouter>
+        <React.StrictMode>
+            <App/>
+        </React.StrictMode>
+    </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
