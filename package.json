@@ -13,6 +13,7 @@
     "@types/react-dom": "^18.0.10",
     "bootstrap": "^5.2.3",
     "classnames": "^2.3.2",
+    "d3": "^7.8.1",
     "flat-carousel": "^0.0.1",
     "openssl": "^2.0.0",
     "react": "^18.2.0",

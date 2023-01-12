@@ -49,23 +49,22 @@ const Projects = ({projectList}) => {
                             return (
                                 <div className="col">
                                     {/*<div className="card h-200 mt-2 mb-2"  style={{marginRight: "40px"}}>*/}
-                                    <div className="card h-200 mb-5 mt-2">
-                                        <div className="card-body">
-                                            <img className="card-img-top" src={logo} alt="logo"/>
-                                            <h5 className="card-title"
-                                                style={{
-                                                    color: "black",
-                                                    fontWeight: "bold"
-                                                }}>{project.name.toUpperCase()}</h5>
-                                        </div>
-                                        <div className="card-footer">
-                                            {/*<Link to={{ pathname: "https://google.com/" }} target="_blank">  See Full Details</Link>*/}
-                                            {/*<a href={project.website} className="btn btn-primary" target="_blank">See*/}
-                                            {/*    Full Details</a>*/}
-                                            <Link to={"/Portfolio/ProjectDetail/" + project.id}
-                                                  className="btn btn-primary"
-                                            >See Full Details </Link>
-                                        </div>
+                                    <div className="card h-200 mb-3 mt-2">
+                                        <Link to={"/Portfolio/ProjectDetail/" + project.id}>
+                                            <div className="card-body">
+                                                <img className="card-img-top" src={logo} alt="logo"/>
+                                            </div>
+                                            <div className="card-footer">
+                                                {/*<Link to={{ pathname: "https://google.com/" }} target="_blank">  See Full Details</Link>*/}
+                                                {/*<a href={project.website} className="btn btn-primary" target="_blank">See*/}
+                                                {/*    Full Details</a>*/}
+                                                <h5 className="card-title"
+                                                    style={{
+                                                        color: "black",
+                                                        fontWeight: "bold"
+                                                    }}>{project.name.toUpperCase()}</h5>
+                                            </div>
+                                        </Link>
                                     </div>
                                 </div>
                             )

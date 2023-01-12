@@ -8,6 +8,8 @@ import AppFooter from "./components/footer";
 import NotFound from "./components/notfound";
 import Home from "./components/home";
 import ProjectDetails from "./components/projectdetails";
+import Certification from "./components/certification";
+import Dashboard from "./components/dashboard";
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
                 <Route path="Portfolio/Home" element={<Home/>}/>
                 <Route path="Portfolio/AllProjects" element={<Projects projectList={projectList}/>}/>
                 <Route path="Portfolio/ProjectDetail/:projectId" element={<ProjectDetails/>}/>
+                <Route path="Portfolio/Certification" element={<Certification/>}/>
+                <Route path="Portfolio/Dashboard" element={<Dashboard/>}/>
                 <Route path="Portfolio/About" element={<About/>}/>
                 <Route path="*" element={<NotFound/>}/>
 
