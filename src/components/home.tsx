@@ -14,6 +14,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from 'react-responsive-carousel'
 
 import SkillBarChart from './skillbarchart'
+import {NavLink} from "react-router-dom";
 
 const Home = () => {
     // const LinkedinStyle = { color: "blue", fontSize: "1.5em" }
@@ -54,10 +55,6 @@ const Home = () => {
     return (
         <div className="App-header">
             <h1 className="mt-5 mb-5">VIJAYARAJ SUYAMBU</h1>
-
-            {/*<SkillBarChart  data={data}/>*/}
-
-
             <div className="container-sm container-md container-lg container-xl container-xxl">
                 <ContactDetails/>
                 <Description/>
@@ -113,6 +110,8 @@ const ContactDetails = () => {
                 <SkillBarChart data={data}/>
             </div>
             <div className="w-25">
+
+
                 <div className="row  row-cols-2 mt-2"><AiFillPhone className="w-auto"/><h3
                     className="fst-italic text-start w-75 ContactDetailsLink">+971
                     561661585</h3></div>
@@ -189,23 +188,29 @@ const Description = () => {
         // <div className="d-flex flex-row flex-wrap overflow-auto">
         <div className="row row-cols-2 ">
             <img className="w-25 h-50" src={mypicture} height="350px" alt="logo"/>
-            <h4 className="text-start w-75 ">I am having 6+ years of experience in software development . India ,
-                officially the Republic of India is a country in South Asia. It is the seventh-largest country by area,
-                the second-most populous country with over 1.2 billion people, and the most populous democracy in the
-                world. Bounded by the Indian Ocean on the south, the Arabian Sea on the south-west, and the Bay of
-                Bengal on the south-east, it shares land borders with Pakistan to the west;[d] China, Nepal, and Bhutan
-                to the north-east; and Burma (Myanmar) and Bangladesh to the east. In the Indian Ocean, India is in the
-                vicinity of Sri Lanka and the Maldives; in addition, India's Andaman and Nicobar Islands share a
-                maritime border with Thailand and Indonesia.</h4>
+            <h4 className="text-start w-75 ">I am having 6+ years of experience in software development Such as mobile,
+                web and development. So far I have development 12 projects.
+            </h4>
         </div>
     )
 }
 
 const RecentProjectList = () => {
+
+    // const sStyle = {fontSize: '30px',backgroundColor:'#367FC3', borderRadius:'10px',borderColor:'#3f4c6e',  color:'white'};
     return (
         <>
             {/*<h3 className="mt-5">Recent Projects <span className="ms-2" style={{ fontSize:'20px' }}>(Click to see full details)</span> </h3>*/}
-            <h3 className="mt-5">Recent Projects </h3><h4 className="mt-4">(Click to see full details)</h4>
+            <div className="row row-cols-3 mt-5">
+                <div/>
+                <div>
+                    <h3>Recent Projects </h3><h4>(Click to see full details)</h4>
+                </div>
+                <div><NavLink to="/Portfolio/AllProjects">
+                    <button className="w-100 h-100 anim btnSeeAll">Click to see All Projects</button>
+                </NavLink></div>
+
+            </div>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 {
                     projectList.map((project, index) => {

@@ -49,3 +49,55 @@ a {
 .HeaderLink {
     color: yellow;
 }
+
+
+/*const sStyle = {fontSize: '30px',backgroundColor:'#367FC3', borderRadius:'10px',borderColor:'#3f4c6e',  color:'white'};*/
+.btnSeeAll {
+    background-color: #367FC3;
+    border-style: solid;
+    border-width: thick;
+    border-color: #3f4c6e;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.anim {
+    animation: 3s ease 0s infinite normal none running shake;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
