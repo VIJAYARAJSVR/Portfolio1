@@ -6,7 +6,7 @@ const AppHeader = () => {
     return (
         // <header className="App-header">
         <header className="container-sm container-md container-lg container-xl container-xxl">
-            <nav className="navbar" style={{height: '70px', fontSize: "30px"}}>
+            <nav className="navbar" style={{height: '60px', fontSize: "25px"}}>
                 {/*<Link to={}> </Link>*/}
                 {/*<NavLink to="/Home" className={({ isActive }) => (isActive ? 'active' : 'inactive')}> Home </NavLink>*/}
                 <NavLink to="Portfolio" className={getClass}> Home </NavLink>
