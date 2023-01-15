@@ -62,9 +62,9 @@ const SkillBarChart = ({widthh}) => {
                     return height - yScale(d);
                 })
                 .delay(function (d, i) {
-                    return i * 500;
+                    return i * 400;
                 })
-                .duration(1500)
+                .duration(1300)
                 .ease(d3.easeBounceOut)
 
 
@@ -82,7 +82,7 @@ const SkillBarChart = ({widthh}) => {
                     marginRight: "0px",
                     marginLeft: "0px",
                     marginBottom: "0px",
-                    marginTop: "20px"
+                    marginTop: "-15px"
                 }}
             >
             </svg>
