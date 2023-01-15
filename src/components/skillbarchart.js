@@ -1,88 +1,93 @@
-import React from 'react';
+import React, {useEffect, useLayoutEffect, useRef, useState} from 'react';
 import {useD3} from './hooks/useD3';
 import * as d3 from 'd3';
+import skillList from '../data/skills.json'
 
 
-// @ts-ignore
-const SkillBarChart = ({data}) => {
+const SkillBarChart = ({widthh}) => {
+
     const ref = useD3(
         (svg) => {
-            const height = 500;
-            const width = 500;
-            const margin = {top: 20, right: 30, bottom: 30, left: 40};
 
-            const x = d3
-                .scaleBand()
-                .domain(data.map((d) => d.year))
-                .rangeRound([margin.left, width - margin.right])
-                .padding(0.5);
+            let skillList = [38, 59, 13, 8, 11, 44, 32, 78, 44, 32, 78, 34, 10, 98, 19, 66]
+            // let skillList = [38, 59,  98]
+            let height = 430,
+                width = 800, barWidth = 30,
+                barOffset = 5;
 
-            const y1 = d3
-                .scaleLinear()
-                .domain([0, d3.max(data, (d) => d.sales)])
-                .rangeRound([height - margin.bottom, margin.top]);
+            const yScale = d3.scaleLinear()
+                .domain([0, d3.max(skillList)])
+                .range([0, height]);
 
-            const xAxis = (g) =>
-                g.attr("transform", `translate(0,${height - margin.bottom})`).call(
-                    d3
-                        .axisBottom(x)
-                        .tickValues(
-                            d3
-                                .ticks(...d3.extent(x.domain()), width / 40)
-                                .filter((v) => x(v) !== undefined)
-                        )
-                        .tickSizeOuter(0)
-                );
+            const xScale = d3.scaleBand()
+                .domain(skillList)
+                .paddingInner(.3)
+                .paddingOuter(.3)
+                .range([0, width]);
 
-            const y1Axis = (g) =>
-                g
-                    .attr("transform", `translate(${margin.left},0)`)
-                    .style("color", "steelblue")
-                    .call(d3.axisLeft(y1).ticks(null, "s"))
-                    .call((g) => g.select(".domain").remove())
-                    .call((g) =>
-                        g
-                            .append("text")
-                            .attr("x", -margin.left)
-                            .attr("y", 10)
-                            .attr("fill", "currentColor")
-                            .attr("text-anchor", "start")
-                            .text(data.y1)
-                    );
-            svg.select(".x-axis").call(xAxis);
-            svg.select(".y-axis").call(y1Axis);
+            // let xScale = d3.scaleBand()
+            //     .range([0, width])
+            //     .paddingInner(.3)
+            //     .paddingOuter(.3);
+            //
+            // xScale.domain(
+            //     skillList.map(function (d) {
+            //         return d;
+            //     })
+            // );
 
-            svg
-                .select(".plot-area")
-                .attr("fill", "steelblue")
-                .selectAll(".bar")
-                .data(data)
-                .join("rect")
-                .attr("class", "bar")
-                .attr("x", (d) => x(d.year))
-                .attr("width", x.bandwidth())
-                .attr("y", (d) => y1(d.sales))
-                .attr("height", (d) => y1(0) - y1(d.sales));
+            let myChart = svg
+                .attr('width', width)
+                .attr('height', height)
+                // .style('background', '#C9D7D6')
+                .selectAll('rect').data(skillList)
+                .enter().append('rect')
+                .style('fill', '#529fde')
+                .attr('width', function (d) {
+                    return xScale.bandwidth();
+                })
+                .attr('height', 0)
+                .attr('y', height)
+                .attr('x', function (d, i) {
+                    // return i*(barWidth+barOffset)
+                    return xScale(d)
+                })
+
+
+            myChart.transition()
+                .attr('height', function (d) {
+                    return yScale(d);
+                })
+                .attr('y', function (d) {
+                    return height - yScale(d);
+                })
+                .delay(function (d, i) {
+                    return i * 500;
+                })
+                .duration(1500)
+                .ease(d3.easeBounceOut)
+
+
         },
-        [data.length]
+        [skillList.length]
     );
 
     return (
-        <svg
-            ref={ref}
-            style={{
-                height: 500,
-                width: "100%",
-                marginRight: "0px",
-                marginLeft: "0px",
-            }}
-        >
-            <g className="plot-area"/>
-            <g className="x-axis"/>
-            <g className="y-axis"/>
-        </svg>
+        <>
+            <svg
+                ref={ref}
+                style={{
+                    // height:"500px",
+                    width: "100%",
+                    marginRight: "0px",
+                    marginLeft: "0px",
+                    marginBottom: "0px",
+                    marginTop: "20px"
+                }}
+            >
+            </svg>
+        </>
     );
 }
-
 
 export default SkillBarChart

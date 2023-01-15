@@ -12,9 +12,10 @@ import {AiOutlineFileText} from '@react-icons/all-files/ai/AiOutlineFileText'
 import {FaStackOverflow} from '@react-icons/all-files/fa/FaStackOverflow'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from 'react-responsive-carousel'
-
-import SkillBarChart from './skillbarchart'
 import {NavLink} from "react-router-dom";
+import {useLayoutEffect, useRef, useState} from "react";
+import TestBarChart from "./testbarchart";
+import SkillBarChart from "./skillbarchart";
 
 const Home = () => {
     // const LinkedinStyle = { color: "blue", fontSize: "1.5em" }
@@ -27,6 +28,8 @@ const Home = () => {
             <div className="container-sm container-md container-lg container-xl container-xxl">
                 <ContactDetails/>
                 <Description/>
+
+
             </div>
             <div className="container-sm container-md container-lg container-xl container-xxl">
                 {/*<div className="row row-cols-2"><p>Recent Projects</p> <NavLink to="AllProjects"> See All Projects </NavLink></div>*/}
@@ -40,7 +43,15 @@ export default Home
 
 
 const ContactDetails = () => {
-    const data = [
+    const ref = useRef(null);
+    const [width, setWidth] = useState(0);
+
+    useLayoutEffect(() => {
+        // @ts-ignore
+        setWidth(ref.current.offsetWidth);
+    }, []);
+
+    const data1 = [
         {year: 1980, efficiency: 24.3, sales: 8949000},
         {year: 1985, efficiency: 27.6, sales: 10979000},
         {year: 1990, efficiency: 28, sales: 9303000},
@@ -72,22 +83,30 @@ const ContactDetails = () => {
         {year: 2016, efficiency: 37.7, sales: 6873000},
         {year: 2017, efficiency: 39.4, sales: 6081000},
     ]
+    const data = [98, 33, 38, 20, 88, 99, 98, 33, 123, 40, 38, 20, 98, 33, 38, 20, 88, 99, 98, 33, 123, 40, 38, 20]
     return (
         <div className="row row-cols-2 mb-5">
-            <div className="w-75">
+            <div className="w-75" ref={ref}>
                 {/*<HomeCarousel/>*/}
-                <SkillBarChart data={data}/>
+                <div className="container" style={{color: 'darkkhaki'}}>
+                    <h4 className="float-start">Technical Experience</h4>
+                    <h6 className="float-start" style={{marginTop: '5px', marginLeft: '10px'}}> (Below Chart)</h6>
+                </div>
+                <SkillBarChart widthh={width}/>
+                {/*<TestBarChart data={data1}/>*/}
             </div>
             <div className="w-25">
+                <div className="row  row-cols-2 mt-2">
+                    <div className="w-25"/>
+                    <AiFillPhone className="w-auto"/><h4
 
-
-                <div className="row  row-cols-2 mt-2"><AiFillPhone className="w-auto"/><h4
-
-                    className="fst-italic text-start w-75 ContactDetailsLink">+971
+                    className="fst-italic text-start w-50 ContactDetailsLink">+971
                     561661585</h4
                 ></div>
-                <div className="row  row-cols-2 mt-2"><MdEmail className="w-auto "/><a
-                    className="fst-italic text-start w-75 ContactDetailsLink"
+                <div className="row  row-cols-2 mt-2">
+                    <div className="w-25"/>
+                    <MdEmail className="w-auto "/><a
+                    className="fst-italic text-start w-50 ContactDetailsLink"
                     href="mailto:Vijayfullstackdeveloper@gmail.com"
                     target="_blank"><h4
                 >Click here</h4
@@ -109,22 +128,28 @@ const ContactDetails = () => {
                     ></div>
                 </div>
 
-                <div className="row  row-cols-2 mt-2"><AiFillLinkedin style={{color: '#206cb2'}} className="w-auto"/><a
-                    className=" fst-italic text-start w-75 ContactDetailsLink"
+                <div className="row  row-cols-2 mt-2">
+                    <div className="w-25"/>
+                    <AiFillLinkedin style={{color: '#206cb2'}} className="w-auto"/><a
+                    className=" fst-italic text-start w-50 ContactDetailsLink"
                     href="https://www.linkedin.com/in/vijay-fullstack"
                     target="_blank"><h4
                 >Linkedin</h4
                 ></a>
                 </div>
-                <div className="row  row-cols-2 mt-2"><VscGithub style={{color: 'white'}} className="w-auto"/><a
-                    className=" fst-italic text-start w-75 ContactDetailsLink"
+                <div className="row  row-cols-2 mt-2">
+                    <div className="w-25"/>
+                    <VscGithub style={{color: 'white'}} className="w-auto"/><a
+                    className=" fst-italic text-start w-50 ContactDetailsLink"
                     href="https://github.com/VIJAYARAJSVR"
                     target="_blank"><h4
                 >GitHub</h4
                 ></a>
                 </div>
-                <div className="row  row-cols-2 mt-2"><FaStackOverflow style={{color: 'orange'}} className="w-auto"/><a
-                    className=" fst-italic text-start w-75 ContactDetailsLink"
+                <div className="row  row-cols-2 mt-2">
+                    <div className="w-25"/>
+                    <FaStackOverflow style={{color: 'orange'}} className="w-auto"/><a
+                    className=" fst-italic text-start w-50 ContactDetailsLink"
                     href="https://stackoverflow.com/users/11745220/vijayaraj-suyambu/"
                     target="_blank"><h4
                 >StackOverFlow</h4
@@ -149,26 +174,32 @@ const ContactDetails = () => {
                     ></div>
                 </div>
 
-                <div className="row  row-cols-2 mt-2"><AiOutlineFileText style={{color: 'greenyellow'}}
-                                                                         className="w-auto"/><a
-                    className="fst-italic text-start w-75 ContactDetailsLink"
+                <div className="row  row-cols-2 mt-2">
+                    <div className="w-25"/>
+                    <AiOutlineFileText style={{color: 'greenyellow'}}
+                                       className="w-auto"/><a
+                    className="fst-italic text-start w-50 ContactDetailsLink"
                     href="https://www.resumonk.com/fullstack"
                     target="_blank">
                     <h4
-                    >Online Resume</h4
+                    >Resume</h4
                     ></a></div>
-                <div className="row  row-cols-2 mt-2"><GrYoutube style={{color: '#fb2201'}} className="w-auto"/><a
-                    className="fst-italic text-start w-75 ContactDetailsLink"
+                <div className="row  row-cols-2 mt-2">
+                    <div className="w-25"/>
+                    <GrYoutube style={{color: '#fb2201'}} className="w-auto"/><a
+                    className="fst-italic text-start w-50 ContactDetailsLink"
                     href="https://www.youtube.com/@vijayarajfullstack/playlists"
                     target="_blank"><h4
                 >Playlist</h4
                 ></a>
                 </div>
-                <div className="row  row-cols-2 mt-2"><GrYoutube style={{color: '#fb2201'}} className="w-auto"/><a
-                    className="fst-italic text-start w-75 ContactDetailsLink"
+                <div className="row  row-cols-2 mt-2">
+                    <div className="w-25"/>
+                    <GrYoutube style={{color: '#fb2201'}} className="w-auto"/><a
+                    className="fst-italic text-start w-50 ContactDetailsLink"
                     href="https://www.youtube.com/@vijayarajfullstack"
                     target="_blank"><h4
-                >Video Resume</h4
+                >Video</h4
                 ></a>
                 </div>
             </div>
