@@ -8,7 +8,8 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "https://www.google.com",
+    "website": [
+    ],
     "thumbnail": "pepsi"
   },
   {
@@ -20,7 +21,8 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com",
+    "website": [
+    ],
     "thumbnail": "adjust"
   },
   {
@@ -32,7 +34,8 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com",
+    "website": [
+    ],
     "thumbnail": "livingtree"
   },
   {
@@ -44,7 +47,8 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com",
+    "website": [
+    ],
     "thumbnail": "bush"
   },
   {
@@ -56,7 +60,8 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com",
+    "website": [
+    ],
     "thumbnail": "tgliving"
   },
   {
@@ -68,7 +73,8 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com",
+    "website": [
+    ],
     "thumbnail": "hilti"
   },
   {
@@ -80,7 +86,8 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com",
+    "website": [
+    ],
     "thumbnail": "hungama"
   },
   {
@@ -92,7 +99,8 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com",
+    "website": [
+    ],
     "thumbnail": "drc"
   },
   {
@@ -104,7 +112,8 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com",
+    "website": [
+    ],
     "thumbnail": "rewards"
   },
   {
@@ -116,7 +125,8 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com",
+    "website": [
+    ],
     "thumbnail": "drc"
   },
   {
@@ -128,7 +138,8 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com",
+    "website": [
+    ],
     "thumbnail": "esp"
   },
   {
@@ -140,8 +151,22 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com",
+    "website": [
+    ],
     "thumbnail": "hdfc"
+  },
+  {
+    "id": 13,
+    "name": "Toyota",
+    "description": "description",
+    "technology": "iOS, Android",
+    "roles": "Roles",
+    "responsibilities": "responsibilities",
+    "location": "Unite Arab Emirates",
+    "duration": "4 months",
+    "website": [
+    ],
+    "thumbnail": "toyota"
   },
   {
     "id": 13,
@@ -152,7 +177,8 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com",
+    "website": [
+    ],
     "thumbnail": "kenamental"
   }
 ]

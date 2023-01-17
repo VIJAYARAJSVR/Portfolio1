@@ -1,5 +1,5 @@
 import logo from '../images/logo.svg';
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 interface Project {
     id: number;
@@ -43,6 +43,17 @@ const Projects = ({projectList}) => {
     return (
         <div className="App-header">
             <div className="container-sm container-md container-lg container-xl container-xxl">
+
+                <div className="row row-cols-3 mt-5">
+                    <div/>
+                    <div>
+                        <h4
+                        >All Project </h4
+                        ><h6>(Click to see full details)</h6>
+                    </div>
+
+
+                </div>
                 {/*<div className="row row-cols-4 ">*/}
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     {

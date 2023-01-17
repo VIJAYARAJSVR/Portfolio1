@@ -232,7 +232,7 @@ const RecentProjectList = () => {
                 <div>
                     <h4
                     >Recent Projects </h4
-                    ><h4>(Click to see full details)</h4>
+                    ><h5>(Click to see full details)</h5>
                 </div>
                 <div><NavLink to="/Portfolio/AllProjects">
                     <button className="w-100 h-100 anim btnSeeAll">Click to see All Projects</button>
