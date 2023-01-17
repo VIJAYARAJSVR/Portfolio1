@@ -10,7 +10,7 @@ const SkillBarChart = ({widthh}) => {
         (svg) => {
 
             let skillList = [38, 59, 13, 8, 11, 44, 32, 78, 44, 32, 78, 34, 10, 98, 19, 66]
-            // let skillList = [38, 59,  98]
+            // let skillList = [34,94,64,14,44,28,48]
             let height = 430,
                 width = 800, barWidth = 30,
                 barOffset = 5;
@@ -49,6 +49,7 @@ const SkillBarChart = ({widthh}) => {
                 .attr('height', 0)
                 .attr('y', height)
                 .attr('x', function (d, i) {
+                    // return xScale(i);
                     // return i*(barWidth+barOffset)
                     return xScale(d)
                 })
@@ -62,7 +63,7 @@ const SkillBarChart = ({widthh}) => {
                     return height - yScale(d);
                 })
                 .delay(function (d, i) {
-                    return i * 400;
+                    return i * 300;
                 })
                 .duration(1300)
                 .ease(d3.easeBounceOut)

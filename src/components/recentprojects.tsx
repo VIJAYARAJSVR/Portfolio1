@@ -2,6 +2,7 @@ import logo from '../images/logo.svg';
 import {Link} from "react-router-dom";
 import {useNavigate} from "react-router-dom";
 import {useRef} from "react";
+
 // @ts-ignore
 const RecentProjects = ({project}) => {
 
@@ -11,8 +12,14 @@ const RecentProjects = ({project}) => {
             <div className="card h-200 mb-5 mt-2">
                 <Link to={"/Portfolio/ProjectDetail/" + project.id}>
                     <div className="card-body">
-                        <img className="card-img-top" src={logo} alt="logo"/>
-                        {/*<h5 className="card-title"*/}
+                        {/*<img className="card-img-top" src={logo} alt="logo"/>*/}
+
+                        {/*<img className="card-img-top" src={`images/project_thumbnail/${project.thumbnail}.png`} alt={project.thumbnail}/>*/}
+                        <img className="card-img-top h-25"
+                             src={require(`./images/project_thumbnail/${project.thumbnail}.png`)}
+                             alt={project.thumbnail}/>
+                        {/*<h5 className="card-tit  le"*/}
+
                         {/*    style={{color: "black", fontWeight: "bold"}}>{project.name.toUpperCase()}</h5>*/}
                     </div>
                     <div className="card-footer">

@@ -11,6 +11,7 @@ interface Project {
     location: String;
     duration: String;
     website: string;
+    thumbnail: string;
 }
 
 // class project {
@@ -52,7 +53,10 @@ const Projects = ({projectList}) => {
                                     <div className="card h-200 mb-3 mt-2">
                                         <Link to={"/Portfolio/ProjectDetail/" + project.id}>
                                             <div className="card-body">
-                                                <img className="card-img-top" src={logo} alt="logo"/>
+                                                {/*<img className="card-img-top" src={logo} alt="logo"/>*/}
+                                                <img className="card-img-top h-25"
+                                                     src={require(`./images/project_thumbnail/${project.thumbnail}.png`)}
+                                                     alt={project.thumbnail}/>
                                             </div>
                                             <div className="card-footer">
                                                 {/*<Link to={{ pathname: "https://google.com/" }} target="_blank">  See Full Details</Link>*/}

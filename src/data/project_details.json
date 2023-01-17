@@ -1,28 +1,102 @@
 [
   {
     "id": 1,
-    "name": "Fleet_Tracker",
+    "name": "Pepsico",
     "description": "description",
     "technology": "iOS, Android",
     "roles": "Roles",
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "https://www.google.com"
+    "website": "https://www.google.com",
+    "thumbnail": "pepsi"
   },
   {
     "id": 2,
-    "name": "Employee Service Portal",
+    "name": "Adjust",
     "description": "description",
     "technology": "iOS, Android",
     "roles": "Roles",
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com"
+    "website": "www.google.com",
+    "thumbnail": "adjust"
   },
   {
     "id": 3,
+    "name": "Living Tree",
+    "description": "description",
+    "technology": "iOS, Android",
+    "roles": "Roles",
+    "responsibilities": "responsibilities",
+    "location": "Unite Arab Emirates",
+    "duration": "4 months",
+    "website": "www.google.com",
+    "thumbnail": "livingtree"
+  },
+  {
+    "id": 4,
+    "name": "Busch Jaeger",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "technology": "iOS, Android",
+    "roles": "Roles",
+    "responsibilities": "responsibilities",
+    "location": "Unite Arab Emirates",
+    "duration": "4 months",
+    "website": "www.google.com",
+    "thumbnail": "bush"
+  },
+  {
+    "id": 5,
+    "name": "TGLiving",
+    "description": "description",
+    "technology": "iOS, Android",
+    "roles": "Roles",
+    "responsibilities": "responsibilities",
+    "location": "Unite Arab Emirates",
+    "duration": "4 months",
+    "website": "www.google.com",
+    "thumbnail": "tgliving"
+  },
+  {
+    "id": 6,
+    "name": "Hilti",
+    "description": "description",
+    "technology": "iOS, Android",
+    "roles": "Roles",
+    "responsibilities": "responsibilities",
+    "location": "Unite Arab Emirates",
+    "duration": "4 months",
+    "website": "www.google.com",
+    "thumbnail": "hilti"
+  },
+  {
+    "id": 7,
+    "name": "Hungama",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "technology": "iOS, Android",
+    "roles": "Roles",
+    "responsibilities": "responsibilities",
+    "location": "Unite Arab Emirates",
+    "duration": "4 months",
+    "website": "www.google.com",
+    "thumbnail": "hungama"
+  },
+  {
+    "id": 8,
+    "name": "DRC",
+    "description": "description",
+    "technology": "iOS, Android",
+    "roles": "Roles",
+    "responsibilities": "responsibilities",
+    "location": "Unite Arab Emirates",
+    "duration": "4 months",
+    "website": "www.google.com",
+    "thumbnail": "drc"
+  },
+  {
+    "id": 9,
     "name": "TGRewards",
     "description": "description",
     "technology": "iOS, Android",
@@ -30,105 +104,55 @@
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com"
-  },
-  {
-    "id": 4,
-    "name": "Living Tree",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "technology": "iOS, Android",
-    "roles": "Roles",
-    "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
-    "duration": "4 months",
-    "website": "www.google.com"
-  },
-  {
-    "id": 5,
-    "name": "Fleet_Tracker",
-    "description": "description",
-    "technology": "iOS, Android",
-    "roles": "Roles",
-    "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
-    "duration": "4 months",
-    "website": "www.google.com"
-  },
-  {
-    "id": 6,
-    "name": "Fleet_Tracker",
-    "description": "description",
-    "technology": "iOS, Android",
-    "roles": "Roles",
-    "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
-    "duration": "4 months",
-    "website": "www.google.com"
-  },
-  {
-    "id": 7,
-    "name": "Living Tree",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "technology": "iOS, Android",
-    "roles": "Roles",
-    "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
-    "duration": "4 months",
-    "website": "www.google.com"
-  },
-  {
-    "id": 8,
-    "name": "Fleet_Tracker",
-    "description": "description",
-    "technology": "iOS, Android",
-    "roles": "Roles",
-    "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
-    "duration": "4 months",
-    "website": "www.google.com"
-  },
-  {
-    "id": 9,
-    "name": "Fleet_Tracker",
-    "description": "description",
-    "technology": "iOS, Android",
-    "roles": "Roles",
-    "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
-    "duration": "4 months",
-    "website": "www.google.com"
+    "website": "www.google.com",
+    "thumbnail": "rewards"
   },
   {
     "id": 10,
-    "name": "Living Tree",
+    "name": "Fleet Tracker",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "technology": "iOS, Android",
     "roles": "Roles",
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com"
+    "website": "www.google.com",
+    "thumbnail": "drc"
   },
   {
     "id": 11,
-    "name": "Fleet_Tracker",
+    "name": "Employee Service Portal",
     "description": "description",
     "technology": "iOS, Android",
     "roles": "Roles",
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com"
+    "website": "www.google.com",
+    "thumbnail": "esp"
   },
   {
     "id": 12,
-    "name": "SLFDJLSDFJ",
+    "name": "Life Insurance",
     "description": "description",
     "technology": "iOS, Android",
     "roles": "Roles",
     "responsibilities": "responsibilities",
     "location": "Unite Arab Emirates",
     "duration": "4 months",
-    "website": "www.google.com"
+    "website": "www.google.com",
+    "thumbnail": "hdfc"
+  },
+  {
+    "id": 13,
+    "name": "kenamental",
+    "description": "description",
+    "technology": "iOS, Android",
+    "roles": "Roles",
+    "responsibilities": "responsibilities",
+    "location": "Unite Arab Emirates",
+    "duration": "4 months",
+    "website": "www.google.com",
+    "thumbnail": "kenamental"
   }
 ]
