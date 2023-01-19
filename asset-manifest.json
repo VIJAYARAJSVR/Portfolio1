@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.08d019ea.css",
-    "main.js": "/Portfolio/static/js/main.b7c68baa.js",
+    "main.css": "/Portfolio/static/css/main.e13c6161.css",
+    "main.js": "/Portfolio/static/js/main.7f4e62d9.js",
     "static/js/496.76bfa3a7.chunk.js": "/Portfolio/static/js/496.76bfa3a7.chunk.js",
     "static/media/Python_Cert.png": "/Portfolio/static/media/Python_Cert.7a697cc8100fe48ffe98.png",
     "static/media/Django_Cert.png": "/Portfolio/static/media/Django_Cert.39c147e749dc088789b0.png",
@@ -19,12 +19,12 @@
     "static/media/bush.png": "/Portfolio/static/media/bush.58780455cb3120910944.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.08d019ea.css.map": "/Portfolio/static/css/main.08d019ea.css.map",
-    "main.b7c68baa.js.map": "/Portfolio/static/js/main.b7c68baa.js.map",
+    "main.e13c6161.css.map": "/Portfolio/static/css/main.e13c6161.css.map",
+    "main.7f4e62d9.js.map": "/Portfolio/static/js/main.7f4e62d9.js.map",
     "496.76bfa3a7.chunk.js.map": "/Portfolio/static/js/496.76bfa3a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08d019ea.css",
-    "static/js/main.b7c68baa.js"
+    "static/css/main.e13c6161.css",
+    "static/js/main.7f4e62d9.js"
   ]
 }
