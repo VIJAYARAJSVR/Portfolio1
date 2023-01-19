@@ -80,6 +80,20 @@ a {
     animation: 3s ease 0s infinite normal none running shake;
 }
 
+div.scroll {
+    margin: 4px;
+    padding: 4px;
+    width: 300px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.my_scroll {
+    width: 70em;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
 @keyframes shake {
     0% {
         transform: translate(1px, 1px) rotate(0deg);

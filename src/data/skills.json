@@ -1,47 +1,52 @@
 [
   {
     "id": 1,
-    "name": "Text",
-    "experience": 6
+    "name": "iOS",
+    "experience": 6.5
   },
   {
     "id": 2,
-    "name": "Text",
-    "experience": 7
+    "name": "Android",
+    "experience": 5.3
   },
   {
     "id": 3,
-    "name": "Text",
-    "experience": 5
+    "name": "Python",
+    "experience": 7.4
   },
   {
     "id": 4,
-    "name": "Text",
-    "experience": 6
+    "name": "React",
+    "experience": 6.4
   },
   {
     "id": 5,
-    "name": "Text",
-    "experience": 3
+    "name": "NodeJS",
+    "experience": 5
   },
   {
     "id": 6,
-    "name": "Text",
-    "experience": 7
+    "name": "AWS",
+    "experience": 3
   },
   {
     "id": 7,
-    "name": "Text",
-    "experience": 3
+    "name": "Database",
+    "experience": 7.5
   },
   {
     "id": 8,
-    "name": "Text",
-    "experience": 8
+    "name": "Django",
+    "experience": 4.9
   },
   {
     "id": 9,
-    "name": "Text",
-    "experience": 3
+    "name": "Angular",
+    "experience": 4.3
+  },
+  {
+    "id": 10,
+    "name": "Ruby",
+    "experience": 2
   }
 ]
