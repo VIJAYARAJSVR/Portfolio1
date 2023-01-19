@@ -7,7 +7,9 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
       "Unite Arab Emirates"
@@ -15,6 +17,8 @@
     "duration": "4 months",
     "website": [
     ],
+    "ios_app": [],
+    "android_app": [],
     "thumbnail": "pepsi"
   },
   {
@@ -25,7 +29,9 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
       "Unite Arab Emirates"
@@ -33,6 +39,8 @@
     "duration": "4 months",
     "website": [
     ],
+    "ios_app": [],
+    "android_app": [],
     "thumbnail": "adjust"
   },
   {
@@ -43,13 +51,30 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "UAE",
+      "USA"
     ],
     "duration": "4 months",
     "website": [
+      "www.google.com",
+      "www.tgliving.com"
+    ],
+    "ios_app": [
+      "www.google.com",
+      "www.tgliving.com",
+      "www.google.com",
+      "www.tgliving.com"
+    ],
+    "android_app": [
+      "www.google.com",
+      "www.tgliving.com",
+      "www.google.com",
+      "www.tgliving.com"
     ],
     "thumbnail": "livingtree"
   },
@@ -61,7 +86,9 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
       "Unite Arab Emirates"
@@ -69,6 +96,8 @@
     "duration": "4 months",
     "website": [
     ],
+    "ios_app": [],
+    "android_app": [],
     "thumbnail": "bush"
   },
   {
@@ -79,7 +108,9 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
       "Unite Arab Emirates"
@@ -87,6 +118,8 @@
     "duration": "4 months",
     "website": [
     ],
+    "ios_app": [],
+    "android_app": [],
     "thumbnail": "tgliving"
   },
   {
@@ -97,7 +130,9 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
       "Unite Arab Emirates"
@@ -105,6 +140,8 @@
     "duration": "4 months",
     "website": [
     ],
+    "ios_app": [],
+    "android_app": [],
     "thumbnail": "hilti"
   },
   {
@@ -115,7 +152,9 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
       "Unite Arab Emirates"
@@ -123,6 +162,8 @@
     "duration": "4 months",
     "website": [
     ],
+    "ios_app": [],
+    "android_app": [],
     "thumbnail": "hungama"
   },
   {
@@ -133,7 +174,9 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
       "Unite Arab Emirates"
@@ -141,6 +184,8 @@
     "duration": "4 months",
     "website": [
     ],
+    "ios_app": [],
+    "android_app": [],
     "thumbnail": "drc"
   },
   {
@@ -151,13 +196,22 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
       "Unite Arab Emirates"
     ],
     "duration": "4 months",
     "website": [
+      "www.tgrewards.com",
+      "www.transguardliving.com"
+    ],
+    "ios_app": [],
+    "android_app": [
+      "play.google.com/store/apps/details?id=com.transguardgroup.transguardrewards",
+      "play.google.com/store/apps/details?id=com.mysalesforce.mycommunity.C00D24000000f19SEAQ.A0OT06000000GmaAGAS"
     ],
     "thumbnail": "rewards"
   },
@@ -169,7 +223,9 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
       "Unite Arab Emirates"
@@ -177,6 +233,8 @@
     "duration": "4 months",
     "website": [
     ],
+    "ios_app": [],
+    "android_app": [],
     "thumbnail": "fleet"
   },
   {
@@ -187,7 +245,9 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
       "Unite Arab Emirates"
@@ -195,6 +255,8 @@
     "duration": "4 months",
     "website": [
     ],
+    "ios_app": [],
+    "android_app": [],
     "thumbnail": "esp"
   },
   {
@@ -205,7 +267,9 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
       "Unite Arab Emirates"
@@ -213,6 +277,8 @@
     "duration": "4 months",
     "website": [
     ],
+    "ios_app": [],
+    "android_app": [],
     "thumbnail": "hdfc"
   },
   {
@@ -223,7 +289,9 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
       "Unite Arab Emirates"
@@ -231,6 +299,8 @@
     "duration": "4 months",
     "website": [
     ],
+    "ios_app": [],
+    "android_app": [],
     "thumbnail": "toyota"
   },
   {
@@ -241,7 +311,9 @@
     "technology": [
       "iOS"
     ],
-    "roles": "Roles",
+    "roles": [
+      "Software Engineer, Full Stack developer"
+    ],
     "responsibilities": "responsibilities",
     "locations": [
       "Unite Arab Emirates"
@@ -249,6 +321,8 @@
     "duration": "4 months",
     "website": [
     ],
+    "ios_app": [],
+    "android_app": [],
     "thumbnail": "kenamental"
   }
 ]

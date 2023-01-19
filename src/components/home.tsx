@@ -27,8 +27,6 @@ const Home = () => {
             <div className="container-sm container-md container-lg container-xl container-xxl">
                 <ContactDetails/>
                 <AboutMe/>
-
-
             </div>
             <div className="container-sm container-md container-lg container-xl container-xxl">
                 {/*<div className="row row-cols-2"><p>Recent Projects</p> <NavLink to="AllProjects"> See All Projects </NavLink></div>*/}
