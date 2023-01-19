@@ -5,7 +5,7 @@ import skillList from '../data/skills.json'
 
 
 const SkillBarChart = ({widthh}) => {
-
+console.log(widthh);
     const ref = useD3(
         (svg) => {
 

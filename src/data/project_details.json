@@ -2,11 +2,16 @@
   {
     "id": 1,
     "name": "Pepsico",
+    "full_name": "Pepsico",
     "description": "description",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],
@@ -15,11 +20,16 @@
   {
     "id": 2,
     "name": "Adjust",
+    "full_name": "Adjust",
     "description": "description",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],
@@ -28,11 +38,16 @@
   {
     "id": 3,
     "name": "Living Tree",
+    "full_name": "Living Tree",
     "description": "description",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],
@@ -41,11 +56,16 @@
   {
     "id": 4,
     "name": "Busch Jaeger",
+    "full_name": "Busch Jaeger",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],
@@ -54,11 +74,16 @@
   {
     "id": 5,
     "name": "TGLiving",
+    "full_name": "Transguard Living",
     "description": "description",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],
@@ -67,11 +92,16 @@
   {
     "id": 6,
     "name": "Hilti",
+    "full_name": "Hilti",
     "description": "description",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],
@@ -80,11 +110,16 @@
   {
     "id": 7,
     "name": "Hungama",
+    "full_name": "Hungama",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],
@@ -93,11 +128,16 @@
   {
     "id": 8,
     "name": "DRC",
+    "full_name": "Dubai Refreshment Pepsico",
     "description": "description",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],
@@ -106,11 +146,16 @@
   {
     "id": 9,
     "name": "TGRewards",
+    "full_name": "Tranguard Rewards",
     "description": "description",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],
@@ -119,11 +164,16 @@
   {
     "id": 10,
     "name": "Fleet Tracker",
+    "full_name": "Fleet Tracker",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],
@@ -132,11 +182,16 @@
   {
     "id": 11,
     "name": "Employee Service Portal",
+    "full_name": "Employee Service Portal",
     "description": "description",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],
@@ -145,11 +200,16 @@
   {
     "id": 12,
     "name": "Life Insurance",
+    "full_name": "HDFC Life Insurance",
     "description": "description",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],
@@ -158,11 +218,16 @@
   {
     "id": 13,
     "name": "Toyota",
+    "full_name": "Toyota",
     "description": "description",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],
@@ -171,11 +236,16 @@
   {
     "id": 13,
     "name": "kenamental",
+    "full_name": "kenamental",
     "description": "description",
-    "technology": "iOS, Android",
+    "technology": [
+      "iOS"
+    ],
     "roles": "Roles",
     "responsibilities": "responsibilities",
-    "location": "Unite Arab Emirates",
+    "locations": [
+      "Unite Arab Emirates"
+    ],
     "duration": "4 months",
     "website": [
     ],

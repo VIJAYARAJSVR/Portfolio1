@@ -20,14 +20,13 @@ import SkillBarChart from "./skillbarchart";
 const Home = () => {
     // const LinkedinStyle = { color: "blue", fontSize: "1.5em" }
 
-
     // @ts-ignore
     return (
         <div className="App-header">
             <h1 className="mt-5 mb-5">VIJAYARAJ SUYAMBU</h1>
             <div className="container-sm container-md container-lg container-xl container-xxl">
                 <ContactDetails/>
-                <Description/>
+                <AboutMe/>
 
 
             </div>
@@ -204,12 +203,13 @@ const ContactDetails = () => {
 
     )
 }
-const Description = () => {
+
+const AboutMe = () => {
     return (
         // <div className="d-flex flex-row flex-wrap overflow-auto">
         <div className="row row-cols-2 ">
             <img className="w-25 h-50" src={mypicture} height="350px" alt="logo"/>
-            <h4 className="text-start w-75 ">I am having 6+ years of experience in software development Such as mobile,
+            <h4 className="text-start w-75 ">I am having 7+ years of experience in software development Such as mobile,
                 web and desktop development. So far I have development 12 projects.
             </h4>
         </div>
@@ -252,7 +252,6 @@ const RecentProjectList = () => {
 
     )
 }
-
 
 const HomeCarousel = () => {
     return (
