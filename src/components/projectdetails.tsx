@@ -1,28 +1,8 @@
 import projectList from '../data/project_details.json'
 
-import {NavLink, useParams} from 'react-router-dom'
-import {useLocation} from 'react-router-dom'
+import {useParams} from 'react-router-dom'
 
 import {useLayoutEffect, useState} from "react";
-
-
-import {AiFillPhone} from '@react-icons/all-files/ai/AiFillPhone'
-import RecentProjects from "./recentprojects";
-
-interface Project {
-    id: number;
-    name: String;
-    full_name: String;
-    description: String;
-    technology: String;
-    roles: String;
-    responsibilities: String;
-    location: String;
-    duration: String;
-    website: string;
-    thumbnail: string;
-}
-
 
 const ProjectDetails = () => {
     // const {state} = useLocation();
@@ -34,7 +14,7 @@ const ProjectDetails = () => {
     useLayoutEffect(() => {
         // @ts-ignore
         return setProjectDetail(getProjectDetail(ExactProjectId));
-    }, []);
+    }, [ExactProjectId]);
 
 
     return (
@@ -92,7 +72,7 @@ const Websites = ({websites}) => {
                 <p className="w-75 text-start project_Field">Website</p>
             </div>
             <div>
-                <ol>
+                <ul>
                     {
                         // @ts-ignore
                         websites.map((website, index) => {
@@ -103,7 +83,7 @@ const Websites = ({websites}) => {
                             </li>)
                         })
                     }
-                </ol>
+                </ul>
             </div>
         </div>
     )
@@ -121,7 +101,12 @@ const IosApp = ({iosapp}) => {
         <div className="row row-cols-2 mb-2 mt-2 project_Row">
             <div className="w-25">
                 <div className="w-25 text-start project_Field1">dumm</div>
+
+                {/*<FaAppStore style={{color: 'lightblue'}} className="w-25 text-start project_Field1 h-50"/>*/}
+
                 <p className="w-75 text-start project_Field">iOS app</p>
+
+
             </div>
 
             <div>
@@ -180,6 +165,15 @@ const Location = ({locations}) => {
         </div>
     )
 }
+
+
+interface Techno {
+    id: number;
+    category: string;
+    skills: [string];
+}
+
+
 // @ts-ignore
 const Technology = ({technologies}) => {
     return (
@@ -189,14 +183,56 @@ const Technology = ({technologies}) => {
                     <div className="w-25 text-start project_Field1">dumm</div>
                     <p className="w-75 text-start project_Field">Technology</p>
                 </div>
-                <div className="w-75 mb-2 text-start">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                <div className="w-75 mb-2 row">
+                    {
+
+                        technologies.map((tech: Techno) => {
+                            return (
+
+                                <div className="col" key={tech.id}>
+                                    <p className="text-center text-bg-secondary card">{tech.category}</p>
+
+                                    <Skill skills={tech.skills}/>
+                                </div>
+
+
+                            )
+                        })
+                    }
                 </div>
             </div>
+        </div>
+    )
+}
+
+// @ts-ignore
+const Skill = ({skills}) => {
+    let arrSkill = skills as [string]
+    console.log(arrSkill);
+
+    return (
+        <div>
+            {
+                // @ts-ignore
+                skills.map((techskill, index) => {
+                    return (
+
+
+                        <div className="row text-start mt-2 " key={index}>
+                            <div className="w-25">
+                                <img style={{width: '50px', height: '50px', marginLeft: '10px'}}
+                                     src={require(`./images/project_thumbnail/fleet.png`)}
+                                     alt="skill"/>
+                            </div>
+
+                            <div className="w-75 text-start ps-4 project_Skills mt-2">{techskill} </div>
+                        </div>
+
+
+                    )
+                })
+
+            }
         </div>
     )
 }
@@ -211,7 +247,8 @@ const Description = ({desc}) => {
                     <p className="w-75 text-start project_Field">Description</p>
                 </div>
                 <div className="w-75 mb-2 text-start">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    <p>{desc} Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                        ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
@@ -247,7 +284,8 @@ const Responsibility = ({responsibilities}) => {
                     <p className="w-75 text-start project_Field">Responsibility</p>
                 </div>
                 <div className="w-75 mb-2 text-start">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    <p> {responsibilities}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat

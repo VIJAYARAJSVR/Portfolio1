@@ -5,20 +5,56 @@
     "full_name": "Pepsico",
     "description": "description",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Back-end",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "MySQL",
+          "MongoDB",
+          "Firebase"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "Swift",
+          "Kotlin",
+          "Xcode14"
+        ]
+      }
     ],
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "United Arab Emirates"
     ],
     "duration": "4 months",
     "website": [
+      "pepsidrc.com"
     ],
     "ios_app": [],
-    "android_app": [],
+    "android_app": [
+      "play.google.com/store/apps/details?id=com.pepsidrc.drcshopping&hl=en_AU&gl=US"
+    ],
     "thumbnail": "pepsi"
   },
   {
@@ -27,20 +63,33 @@
     "full_name": "Adjust",
     "description": "description",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Backend",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      }
     ],
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "United Arab Emirates"
     ],
     "duration": "4 months",
     "website": [
+      "www.adjust.com/",
+      "www.adjust.com/blog/"
     ],
-    "ios_app": [],
-    "android_app": [],
+    "ios_app": [
+      "apps.apple.com/us/app/adjust-insights/id1125517808"
+    ],
+    "android_app": [
+      "play.google.com/store/apps/details?id=com.adjust.insights&hl=en&gl=US"
+    ],
     "thumbnail": "adjust"
   },
   {
@@ -49,32 +98,32 @@
     "full_name": "Living Tree",
     "description": "description",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Backend",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      }
     ],
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "UAE",
-      "USA"
+      "USA",
+      "India"
     ],
     "duration": "4 months",
     "website": [
-      "www.google.com",
-      "www.tgliving.com"
+      "learn.livingtree.com/"
     ],
     "ios_app": [
-      "www.google.com",
-      "www.tgliving.com",
-      "www.google.com",
-      "www.tgliving.com"
+      "learn.livingtree.com/products/engage/"
     ],
     "android_app": [
-      "www.google.com",
-      "www.tgliving.com",
-      "www.google.com",
-      "www.tgliving.com"
+      "learn.livingtree.com/products/engage/"
     ],
     "thumbnail": "livingtree"
   },
@@ -84,20 +133,33 @@
     "full_name": "Busch Jaeger",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Backend",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      }
     ],
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "Germany",
+      "India"
     ],
     "duration": "4 months",
     "website": [
+      "www.busch-jaeger.de/en"
     ],
-    "ios_app": [],
-    "android_app": [],
+    "ios_app": [
+      "apps.apple.com/us/app/busch-controltouch/id1099217049"
+    ],
+    "android_app": [
+      "play.google.com/store/apps/details?id=de.buschjaeger.controltouch"
+    ],
     "thumbnail": "bush"
   },
   {
@@ -106,20 +168,32 @@
     "full_name": "Transguard Living",
     "description": "description",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Backend",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      }
     ],
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "United Arab Emirates"
     ],
     "duration": "4 months",
     "website": [
+      "www.transguardliving.com"
     ],
-    "ios_app": [],
-    "android_app": [],
+    "ios_app": [
+      "apps.apple.com/ae/app/transguard-living/id1555927081"
+    ],
+    "android_app": [
+      "play.google.com/store/apps/details?id=com.mysalesforce.mycommunity.C00D24000000f19SEAQ.A0OT06000000GmaAGAS"
+    ],
     "thumbnail": "tgliving"
   },
   {
@@ -128,20 +202,32 @@
     "full_name": "Hilti",
     "description": "description",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Backend",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      }
     ],
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "India"
     ],
     "duration": "4 months",
     "website": [
+      "www.hilti.ae"
     ],
-    "ios_app": [],
-    "android_app": [],
+    "ios_app": [
+      "apps.apple.com/us/app/hilti-on-track-3/id1440949754"
+    ],
+    "android_app": [
+      "play.google.com/store/apps/details?id=com.hilti.mobile.ontrack3"
+    ],
     "thumbnail": "hilti"
   },
   {
@@ -150,20 +236,32 @@
     "full_name": "Hungama",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Backend",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      }
     ],
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "India"
     ],
     "duration": "4 months",
     "website": [
+      "www.hungama.com"
     ],
-    "ios_app": [],
-    "android_app": [],
+    "ios_app": [
+      "apps.apple.com/in/app/hungama-music-hindi-english/id414009038"
+    ],
+    "android_app": [
+      "play.google.com/store/apps/details?id=com.hungama.myplay.activity&hl=en"
+    ],
     "thumbnail": "hungama"
   },
   {
@@ -172,14 +270,21 @@
     "full_name": "Dubai Refreshment Pepsico",
     "description": "description",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Backend",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      }
     ],
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "United Arab Emirates"
     ],
     "duration": "4 months",
     "website": [
@@ -194,24 +299,31 @@
     "full_name": "Tranguard Rewards",
     "description": "description",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Backend",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      }
     ],
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "United Arab Emirates"
     ],
     "duration": "4 months",
     "website": [
-      "www.tgrewards.com",
-      "www.transguardliving.com"
+      "www.tgrewards.com"
     ],
-    "ios_app": [],
+    "ios_app": [
+      "apps.apple.com/ae/app/transguard-reward/id1623114926"
+    ],
     "android_app": [
-      "play.google.com/store/apps/details?id=com.transguardgroup.transguardrewards",
-      "play.google.com/store/apps/details?id=com.mysalesforce.mycommunity.C00D24000000f19SEAQ.A0OT06000000GmaAGAS"
+      "play.google.com/store/apps/details?id=com.transguardgroup.transguardrewards"
     ],
     "thumbnail": "rewards"
   },
@@ -221,14 +333,21 @@
     "full_name": "Fleet Tracker",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Backend",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      }
     ],
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "United Arab Emirates"
     ],
     "duration": "4 months",
     "website": [
@@ -243,20 +362,29 @@
     "full_name": "Employee Service Portal",
     "description": "description",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Backend",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      }
     ],
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "United Arab Emirates"
     ],
     "duration": "4 months",
     "website": [
     ],
     "ios_app": [],
-    "android_app": [],
+    "android_app": [
+      "play.google.com/store/apps/details?id=com.transguardgroup.esp&hl=en&gl=US"
+    ],
     "thumbnail": "esp"
   },
   {
@@ -265,14 +393,21 @@
     "full_name": "HDFC Life Insurance",
     "description": "description",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Backend",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      }
     ],
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "India"
     ],
     "duration": "4 months",
     "website": [
@@ -287,14 +422,22 @@
     "full_name": "Toyota",
     "description": "description",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Backend",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      }
     ],
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "Thailand ",
+      " India"
     ],
     "duration": "4 months",
     "website": [
@@ -304,19 +447,27 @@
     "thumbnail": "toyota"
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "kenamental",
     "full_name": "kenamental",
     "description": "description",
     "technology": [
-      "iOS"
+      {
+        "id": 1,
+        "category": "Backend",
+        "skills": [
+          "iOS",
+          "Android"
+        ]
+      }
     ],
     "roles": [
-      "Software Engineer, Full Stack developer"
+      "Trainer ",
+      " Software Engineer"
     ],
     "responsibilities": "responsibilities",
     "locations": [
-      "Unite Arab Emirates"
+      "India"
     ],
     "duration": "4 months",
     "website": [

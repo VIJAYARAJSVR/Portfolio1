@@ -34,7 +34,7 @@ console.log(widthh);
                 skill.push(skillList[i].name);
             }
 
-            colors = d3.scaleLinear()
+            d3.scaleLinear()
                 .domain([1, d3.max(experience)])
                 .range(['#FFFFFF', '#2D8BCF', '#DA3637'])
 
@@ -82,12 +82,12 @@ console.log(widthh);
                 .enter().append('rect')
                 .style('fill', '#529fde')
                 // .attr('fill', colors)
-                .attr('width', function (d) {
+                .attr('width', function () {
                     return xScale.bandwidth();
                 })
                 .attr('height', 0)
                 .attr('y', height)
-                .attr('x', function (d, i) {
+                .attr('x', function (d) {
                     return xScale(d)
                 })
 
@@ -101,20 +101,20 @@ console.log(widthh);
                 tempColor = this.style.fill;
                 d3.select(this).style('fill', 'yellow')
             })
-                .on('mouseout', function (d) {
+                .on('mouseout', function () {
                     tooltip.html('')
                     d3.select(this).style('fill', tempColor)
                 })
 
 
-            yGuide = svg.append('g')
+            svg.append('g')
                 .attr('transform', 'translate(20,0)')
                 .style('font-size', '20px')
                 .style('color', 'darkkhaki')
                 .call(yAxisTicks)
 
 
-            xGuide = svg.append('g')
+            svg.append('g')
                 .attr('transform', 'translate(20,' + height + ')')
                 .style('font-size', '20px')
                 .style('color', 'darkkhaki')

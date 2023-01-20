@@ -4,7 +4,7 @@ import * as d3 from 'd3';
 
 
 // @ts-ignore
-const SkillBarChart1 = ({data, widthh}) => {
+const SkillBarChart1 = ({data}) => {
 
     const ref = useD3(
         (svg) => {
@@ -41,7 +41,7 @@ const SkillBarChart1 = ({data, widthh}) => {
                 .attr('fill', function (d, i) {
                     return colors(i)
                 })
-                .attr('width', function (d) {
+                .attr('width', function () {
                     return xScale.bandwidth();
                 })
                 .attr('height', 0)
@@ -49,12 +49,12 @@ const SkillBarChart1 = ({data, widthh}) => {
                     return xScale(d);
                 })
                 .attr('y', height)
-                .on('mouseover', function (d) {
+                .on('mouseover', function () {
                     tempColor = this.style.fill;
                     d3.select(this)
                         .style('fill', 'yellow')
                 })
-                .on('mouseout', function (d) {
+                .on('mouseout', function () {
                     d3.select(this)
                         .style('fill', tempColor)
                 });

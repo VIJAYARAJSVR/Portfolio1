@@ -73,6 +73,13 @@
     /*display: block;*/
 }
 
+.project_Skills {
+    font-style: italic;
+    font-size: 21px;
+    color: khaki;
+    float: left;
+}
+
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
