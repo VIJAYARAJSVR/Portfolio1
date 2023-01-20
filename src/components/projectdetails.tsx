@@ -215,17 +215,33 @@ const Skill = ({skills}) => {
             {
                 // @ts-ignore
                 skills.map((techskill, index) => {
-                    return (
 
+                    let actualskill = techskill
+
+                    if (actualskill.trim() === "dotnet") {
+                        actualskill = ".NET"
+                    }
+
+                    let image = require(`./images/skills/ios.png`)
+
+                    try {
+                        image = require(`./images/skills/` + techskill.toLowerCase() + `.png`)
+                    } catch (e) {
+                        console.log(e);
+                        image = require(`./images/skills/default.png`)
+                    }
+
+
+                    return (
 
                         <div className="row text-start mt-2 " key={index}>
                             <div className="w-25">
-                                <img style={{width: '50px', height: '50px', marginLeft: '10px'}}
-                                     src={require(`./images/project_thumbnail/fleet.png`)}
-                                     alt="skill"/>
+                                <img className="project_skill_Image"
+                                     src={image}
+                                     alt={actualskill}/>
                             </div>
 
-                            <div className="w-75 text-start ps-4 project_Skills mt-2">{techskill} </div>
+                            <div className="w-75 text-start ps-4 project_Skills mt-2">{actualskill} </div>
                         </div>
 
 
@@ -236,6 +252,7 @@ const Skill = ({skills}) => {
         </div>
     )
 }
+
 
 // @ts-ignore
 const Description = ({desc}) => {

@@ -9,8 +9,9 @@
         "id": 1,
         "category": "Back-end",
         "skills": [
-          "iOS",
-          "Android"
+          "ruby on rails",
+          "AWS",
+          "dotnet"
         ]
       },
       {
@@ -26,17 +27,19 @@
         "category": "Database",
         "skills": [
           "MySQL",
-          "MongoDB",
-          "Firebase"
+          "Mongodb",
+          "Firebase",
+          "Django",
+          "Python"
         ]
       },
       {
         "id": 4,
         "category": "Mobile",
         "skills": [
-          "Swift",
-          "Kotlin",
-          "Xcode14"
+          "IOS",
+          "Android",
+          "Flutter"
         ]
       }
     ],

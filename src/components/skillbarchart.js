@@ -2,10 +2,11 @@ import React, {useEffect, useLayoutEffect, useRef, useState} from 'react';
 import {useD3} from './hooks/useD3';
 import * as d3 from 'd3';
 import skillList from '../data/skills.json'
+// import {event as currentEvent} from 'd3';
 
 
 const SkillBarChart = ({widthh}) => {
-console.log(widthh);
+    console.log(widthh);
     const ref = useD3(
         (svg) => {
 
@@ -63,6 +64,13 @@ console.log(widthh);
                 .paddingOuter(.3)
                 .range([0, width]);
 
+            // tooltip = d3.select('body')
+            //     .append('div')
+            //     .style('position', 'absolute')
+            //     .style('padding', '0 10px')
+            //     .style('background', 'white')
+            //     .style('opacity', 0);
+
             tooltip = d3.select('body')
                 .append('div')
                 .style('position', 'absolute')
@@ -92,12 +100,13 @@ console.log(widthh);
                 })
 
 
-            myChart.on('mouseover', function (d) {
+            myChart.on('mouseover', function (mevent, dataValue, hee) {
                 tooltip.transition().duration(200)
                     .style('opacity', .9)
                 tooltip.html(
-                    '<div style="font-size: 2rem; font-weight: bold">' + d + '&deg;</div>'
-                )
+                    '<div style="font-size: 2rem; font-weight: bold">' + Math.round(dataValue) + ' years</div>'
+                ).style('left', (mevent.screenX) + 'px').style('top', (mevent.clientY) - (40) + 'px')
+
                 tempColor = this.style.fill;
                 d3.select(this).style('fill', 'yellow')
             })
