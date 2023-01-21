@@ -9,28 +9,28 @@
         "id": 1,
         "category": "Back-end",
         "skills": [
-          "ruby on rails",
-          "AWS",
-          "dotnet"
+          "Django",
+          "Node JS",
+          "Ruby on Rails"
         ]
       },
       {
         "id": 2,
         "category": "Front-end",
         "skills": [
-          "iOS",
-          "Android"
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "React JS"
         ]
       },
       {
         "id": 3,
         "category": "Database",
         "skills": [
-          "MySQL",
-          "Mongodb",
+          "AWS",
           "Firebase",
-          "Django",
-          "Python"
+          "PostgreSQL"
         ]
       },
       {
@@ -54,7 +54,8 @@
     "website": [
       "pepsidrc.com"
     ],
-    "ios_app": [],
+    "ios_app": [
+    ],
     "android_app": [
       "play.google.com/store/apps/details?id=com.pepsidrc.drcshopping&hl=en_AU&gl=US"
     ],
@@ -68,10 +69,39 @@
     "technology": [
       {
         "id": 1,
-        "category": "Backend",
+        "category": "Back-end",
         "skills": [
-          "iOS",
-          "Android"
+          "Node JS",
+          "Express JS",
+          "Graph QL"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "React JS"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "AWS",
+          "SQLite",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
+          "Android",
+          "React Native"
         ]
       }
     ],
@@ -103,10 +133,40 @@
     "technology": [
       {
         "id": 1,
-        "category": "Backend",
+        "category": "Back-end",
         "skills": [
-          "iOS",
-          "Android"
+          "Node JS",
+          "Express JS",
+          "Graph QL"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "Angular"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "AWS",
+          "MySQL",
+          "Redis",
+          "SQLite"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
+          "Android",
+          "Flutter"
         ]
       }
     ],
@@ -138,10 +198,37 @@
     "technology": [
       {
         "id": 1,
-        "category": "Backend",
+        "category": "Back-end",
         "skills": [
-          "iOS",
-          "Android"
+          "Node JS",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "Angular"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "SQLite",
+          "MySQL"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
+          "Android",
+          "React Native"
         ]
       }
     ],
@@ -173,10 +260,40 @@
     "technology": [
       {
         "id": 1,
-        "category": "Backend",
+        "category": "Back-end",
         "skills": [
-          "iOS",
-          "Android"
+          "Node JS",
+          "dotnet"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "React JS",
+          "Bootstrap",
+          "JQuery"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "AWS",
+          "SQLite",
+          "SQLServer"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
+          "Android",
+          "React Native"
         ]
       }
     ],
@@ -207,10 +324,38 @@
     "technology": [
       {
         "id": 1,
-        "category": "Backend",
+        "category": "Back-end",
         "skills": [
-          "iOS",
-          "Android"
+          "Ruby",
+          "Node JS",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "dotnet"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "SQLite",
+          "MySQL"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
+          "Android",
+          "xamarin"
         ]
       }
     ],
@@ -241,9 +386,37 @@
     "technology": [
       {
         "id": 1,
-        "category": "Backend",
+        "category": "Back-end",
         "skills": [
-          "iOS",
+          "Express JS",
+          "Node JS",
+          "GraphQL"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "React JS"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "AWS",
+          "MySQL",
+          "SQLite"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
           "Android"
         ]
       }
@@ -275,10 +448,39 @@
     "technology": [
       {
         "id": 1,
-        "category": "Backend",
+        "category": "Back-end",
         "skills": [
-          "iOS",
-          "Android"
+          "Django",
+          "Node JS",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "React JS"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "AWS",
+          "Firebase",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
+          "Android",
+          "Flutter"
         ]
       }
     ],
@@ -292,8 +494,10 @@
     "duration": "4 months",
     "website": [
     ],
-    "ios_app": [],
-    "android_app": [],
+    "ios_app": [
+    ],
+    "android_app": [
+    ],
     "thumbnail": "drc"
   },
   {
@@ -304,10 +508,39 @@
     "technology": [
       {
         "id": 1,
-        "category": "Backend",
+        "category": "Back-end",
         "skills": [
-          "iOS",
-          "Android"
+          "Django",
+          "Node JS",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "React JS"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "AWS",
+          "Firebase",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
+          "Android",
+          "Flutter"
         ]
       }
     ],
@@ -338,10 +571,39 @@
     "technology": [
       {
         "id": 1,
-        "category": "Backend",
+        "category": "Back-end",
         "skills": [
-          "iOS",
-          "Android"
+          "Django",
+          "Node JS",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "React JS"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "AWS",
+          "Firebase",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
+          "Android",
+          "Flutter"
         ]
       }
     ],
@@ -355,8 +617,10 @@
     "duration": "4 months",
     "website": [
     ],
-    "ios_app": [],
-    "android_app": [],
+    "ios_app": [
+    ],
+    "android_app": [
+    ],
     "thumbnail": "fleet"
   },
   {
@@ -367,10 +631,39 @@
     "technology": [
       {
         "id": 1,
-        "category": "Backend",
+        "category": "Back-end",
         "skills": [
-          "iOS",
-          "Android"
+          "Django",
+          "Node JS",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "React JS"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "AWS",
+          "Firebase",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
+          "Android",
+          "Flutter"
         ]
       }
     ],
@@ -384,7 +677,8 @@
     "duration": "4 months",
     "website": [
     ],
-    "ios_app": [],
+    "ios_app": [
+    ],
     "android_app": [
       "play.google.com/store/apps/details?id=com.transguardgroup.esp&hl=en&gl=US"
     ],
@@ -398,10 +692,39 @@
     "technology": [
       {
         "id": 1,
-        "category": "Backend",
+        "category": "Back-end",
         "skills": [
-          "iOS",
-          "Android"
+          "Django",
+          "Node JS",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "React JS"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "AWS",
+          "Firebase",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
+          "Android",
+          "Flutter"
         ]
       }
     ],
@@ -415,8 +738,10 @@
     "duration": "4 months",
     "website": [
     ],
-    "ios_app": [],
-    "android_app": [],
+    "ios_app": [
+    ],
+    "android_app": [
+    ],
     "thumbnail": "hdfc"
   },
   {
@@ -427,10 +752,39 @@
     "technology": [
       {
         "id": 1,
-        "category": "Backend",
+        "category": "Back-end",
         "skills": [
-          "iOS",
-          "Android"
+          "Django",
+          "Node JS",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "React JS"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "AWS",
+          "Firebase",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
+          "Android",
+          "Flutter"
         ]
       }
     ],
@@ -445,8 +799,10 @@
     "duration": "4 months",
     "website": [
     ],
-    "ios_app": [],
-    "android_app": [],
+    "ios_app": [
+    ],
+    "android_app": [
+    ],
     "thumbnail": "toyota"
   },
   {
@@ -457,10 +813,39 @@
     "technology": [
       {
         "id": 1,
-        "category": "Backend",
+        "category": "Back-end",
         "skills": [
-          "iOS",
-          "Android"
+          "Django",
+          "Node JS",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "React JS"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "AWS",
+          "Firebase",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
+          "Android",
+          "Flutter"
         ]
       }
     ],
@@ -475,8 +860,10 @@
     "duration": "4 months",
     "website": [
     ],
-    "ios_app": [],
-    "android_app": [],
+    "ios_app": [
+    ],
+    "android_app": [
+    ],
     "thumbnail": "kenamental"
   }
 ]
