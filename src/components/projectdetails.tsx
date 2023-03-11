@@ -266,7 +266,7 @@ const DescriptionList = ({desc}) => {
                     return (
 
 
-                        <div className="text-start ps-1 mt-2 mb-1" key={index}>{descrip} </div>
+                        <div className="text-start p-2 mt-1 mb-1" key={index}>{descrip} </div>
 
 
                     )
@@ -304,7 +304,7 @@ const Role = ({roles}) => {
                     <p className="w-75 text-start project_Field">Roles</p>
                 </div>
                 <div className="w-75 mb-2 text-start">
-                    <p className="project_Value"> {roles.join(",")}</p>
+                    <p className="ms-2 project_Value"> {roles.join(",")}</p>
                 </div>
             </div>
         </div>
@@ -317,14 +317,14 @@ const ResponsibilityList = ({responsibilities}) => {
     console.log(arrResponsibilities);
 
     return (
-        <ul>
+        <ul className="unorder_Square">
             {
                 // @ts-ignore
                 arrResponsibilities.map((responsibility, index) => {
                     return (
 
 
-                        <li className="text-start ps-1 mt-2 mb-1" key={index}>{responsibility} </li>
+                        <li className="text-start p-1 mt-1 mb-1" key={index}>{responsibility} </li>
 
 
                     )
