@@ -264,12 +264,7 @@ const Description = ({desc}) => {
                     <p className="w-75 text-start project_Field">Description</p>
                 </div>
                 <div className="w-75 mb-2 text-start">
-                    <p>{desc} Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                        ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <p>{desc}  </p>
                 </div>
             </div>
         </div>
@@ -301,12 +296,7 @@ const Responsibility = ({responsibilities}) => {
                     <p className="w-75 text-start project_Field">Responsibility</p>
                 </div>
                 <div className="w-75 mb-2 text-start">
-                    <p> {responsibilities}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <p> {responsibilities} </p>
                 </div>
             </div>
         </div>
