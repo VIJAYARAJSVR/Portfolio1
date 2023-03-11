@@ -207,9 +207,12 @@ const AboutMe = () => {
         // <div className="d-flex flex-row flex-wrap overflow-auto">
         <div className="row row-cols-2 ">
             <img className="w-25 h-50" src={mypicture} height="350px" alt="logo"/>
-            <h4 className="text-start w-75 ">I am having 7+ years of experience in software development Such as mobile,
-                web and desktop development. So far I have development 12 projects.
-            </h4>
+            <p className="fs-4 text-start w-75 " style={{lineHeight: 1.5}}>I am having <span
+                className="ms-1 mt-1 fs-2 fw-bold text-bg-warning p-1">7+</span> years of experience in software
+                development Such as mobile,
+                web and desktop development. So far I have development <span
+                    className="ms-1 mt-1 fs-2 fw-bold text-bg-warning p-1">15</span> software projects.
+            </p>
         </div>
     )
 }

@@ -639,7 +639,16 @@
     "name": "Fleet Tracker",
     "full_name": "Fleet Tracker",
     "description": [
-      ""
+      "Fleet tracking systems allow businesses to efficiently monitor their trucks, trailers, vans, and other vehicles and equipment.",
+      "Track vehicles in real-time",
+      "Location Tracking",
+      "Asset and team member assignments",
+      "Vehicle usage metrics",
+      "Preventive maintenance schedules",
+      "Fuel tracking and consumption",
+      "Work orders and statuses",
+      "Fleet operating expenses",
+      "Configurable vehicle inspections"
     ],
     "technology": [
       {
