@@ -147,6 +147,7 @@
     "name": "Living Tree",
     "full_name": "Living Tree",
     "description": [
+      "LivingTree connects people who raise, develop, and educate children. It helps parents, loved ones, teachers, and coaches raise children. Send alerts, manage volunteers, share messages, photos, files, calendar events, and more – all in a single, private and secure place, wherever you are. The best technology has to offer to enable schools, districts, communities, and families to partner in developing children. It includes everyone in the conversation regardless of the preferred language. ",
       "A web and mobile based school application which is easy-to-use,all-in-one online fundraising platform for school teachers, teams, clubs, and education foundation.",
       "An Online Professional Development program that equips leaders and teachers with effective strategies that improve parent communication and create authentic family engagement.",
       "Sell items online with the School Store",
@@ -222,7 +223,8 @@
     "name": "Busch Jaeger",
     "full_name": "Busch Jaeger",
     "description": [
-      "Control Touch transforms the office into an intelligent workplace. Whether blinds, \nlights, heating, air conditioning, door communication or scenes. Easy to remote control via a switch on the wall with the smartphone or tablet. This multifunctional remote control allows you to make adjustments later without the need for previous experience. With the help of a smartphone or tablet, all functions are easily configurable."
+      "Control Touch transforms the office into an intelligent workplace. Whether blinds, \nlights, heating, air conditioning, door communication or scenes. Easy to remote control via a switch on the wall with the smartphone or tablet. This multifunctional remote control allows you to make adjustments later without the need for previous experience. With the help of a smartphone or tablet, all functions are easily configurable.",
+      "These innovative and high-quality movement and presence detectors by ABB/Busch-Jaeger make life more comfortable. They are alert, helpful, and efficient. And they automatically manage many tasks in every sector of the building. Indoors and outdoors. Regarding safety, you know precisely when the light is needed. And other functions, such as heating and air-conditioning, can be intelligently and reliably integrated. Busch-Watchdogs are a unique combination of design, safety, efficiency and comfort."
     ],
     "technology": [
       {
@@ -432,7 +434,8 @@
     "name": "Hungama",
     "full_name": "Hungama",
     "description": [
-      "Hungama.com is a leading digital entertainment company that launched a digital entertainment storefront with over 2 million pieces of content across genres and languages in music tracks, movies, videos & dialogues. Hungama Music the application will allow users to browse, search, subscribe and play the music, radio, and video of their choice on Web, Android and iOS devices."
+      "Hungama.com is a leading digital entertainment company that launched a digital entertainment storefront with over 2 million pieces of content across genres and languages in music tracks, movies, videos & dialogues. Hungama Music the application will allow users to browse, search, subscribe and play the music, radio, and video of their choice on Web, Android and iOS devices.",
+      "Hungama Music client application will allow users to browse, search, subscribe and play the music, radio, and video of their choice on an iOS device. The term “Client” referred to here means Client application which will run on iOS devices unless stated otherwise. The term “Server” refers to the Hungama / Catchmedia Server to which the client will connect to access the information about the content."
     ],
     "technology": [
       {
@@ -716,6 +719,7 @@
     "full_name": "Employee Service Portal",
     "description": [
       "The Employee Service Portal (ESP) is a simple way for Transguard employees to access tools and information to support their both work and life – anywhere, anytime.",
+      "A query ticketing system enabling business units to track and respond to queries raised by employees and internal stakeholders. The system allows employees or support teams to log a question, allocate a query to the relevant team member, track the query's status, log its resolution and report on all queries.",
       "Raise queries directly to the HR Helpdesk."
     ],
     "technology": [
@@ -784,7 +788,7 @@
     "name": "Life Insurance",
     "full_name": "HDFC Life Insurance",
     "description": [
-      ""
+      "The purpose of this HDFC Life website is to know about HDFC products, download product brochures, benefit Illustrations, proposal forms, claim forms, and service request forms; a customer who wants to know about the policy and products of HDFC Life Insurance fill a form in the “meet an Advisor” page, based upon the customer selected city, HDFC Advisor directly contact them and explain about the products. This site also provides a survey about insurance. So it helps HDFC track customers’ needs, and this site has Planning Tools like a child calculator and a premium calculator. In addition, customers can get the address and map direction of the selected HDFC branch by using a branch locator."
     ],
     "technology": [
       {
@@ -907,10 +911,14 @@
     ],
     "duration": "4 months",
     "website": [
+      "www.toyotabharat.com",
+      "www.toyotabharat.com/toyota-i-connect"
     ],
     "ios_app": [
+      "apps.apple.com/ae/app/t-connect-m-e/id781407316?ign-mpt=uo%3D4"
     ],
     "android_app": [
+      "play.google.com/store/apps/details?id=me.co.tsp.tconnectme"
     ],
     "thumbnail": "toyota"
   },
@@ -918,6 +926,74 @@
     "id": 14,
     "name": "kenamental",
     "full_name": "kenamental",
+    "description": [
+      "This project aims to provide complaints for different products and get a reply from the products handling teams. Unlike other CMS in the market, the system records the call or customer emails. When customers send a complaint based on the product, the complaints can be allocated to different persons and tracked to closure if they find a faulty product. Admin assigns complaints to different employees according to their functionality in the organisation. Employees and Admin contain their predefined roles. They were tracking the complaint raised, resolving and generating reports."
+    ],
+    "technology": [
+      {
+        "id": 1,
+        "category": "Back-end",
+        "skills": [
+          "Django",
+          "Node JS",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Front-end",
+        "skills": [
+          "Javascript",
+          "HTML5",
+          "CSS3",
+          "React JS"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "skills": [
+          "AWS",
+          "Firebase",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "skills": [
+          "IOS",
+          "Android",
+          "Flutter"
+        ]
+      }
+    ],
+    "roles": [
+      "Trainer ",
+      " Software Engineer"
+    ],
+    "responsibilities": [
+      "Communicate the project plan to management and stakeholders.",
+      "Manage the definition of the project scope and project deliverables and ensure they are aligned with the project charter.",
+      "Involved in design, implement and deploy Web and Mobile Application and end to end product development and deliver to the business unit.",
+      "Initiation, Planning, Execution, Monitoring and Tracking the Projects."
+    ],
+    "locations": [
+      "India"
+    ],
+    "duration": "4 months",
+    "website": [
+    ],
+    "ios_app": [
+    ],
+    "android_app": [
+    ],
+    "thumbnail": "kenamental"
+  },
+  {
+    "id": 15,
+    "name": "3D Secure",
+    "full_name": "broadcom 3-D Secure",
     "description": [
       ""
     ],
