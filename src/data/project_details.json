@@ -3,7 +3,9 @@
     "id": 1,
     "name": "Pepsico",
     "full_name": "Pepsico",
-    "description": "DRC is a leading F&B manufacturing and distribution company in the lower gulf. It is strategically located at the heart of the new industrial hub midway between Dubai and Abu Dhabi, at Dubai Investment Park. The new site is state of the art that meets the current requirements of the industry.",
+    "description": [
+      "DRC is a leading F&B manufacturing and distribution company in the lower gulf. It is strategically located at the heart of the new industrial hub midway between Dubai and Abu Dhabi, at Dubai Investment Park. The new site is state of the art that meets the current requirements of the industry."
+    ],
     "technology": [
       {
         "id": 1,
@@ -46,7 +48,10 @@
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities",
+      "hello world"
+    ],
     "locations": [
       "United Arab Emirates"
     ],
@@ -66,7 +71,9 @@
     "id": 2,
     "name": "Adjust",
     "full_name": "Adjust",
-    "description": "The Online Ordering & Home Delivery App of Dubai Refreshment & Pepsi",
+    "description": [
+      "The Online Ordering & Home Delivery App of Dubai Refreshment & Pepsi"
+    ],
     "technology": [
       {
         "id": 1,
@@ -109,7 +116,9 @@
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities"
+    ],
     "locations": [
       "United Arab Emirates"
     ],
@@ -130,7 +139,9 @@
     "id": 3,
     "name": "Living Tree",
     "full_name": "Living Tree",
-    "description": "Livingtree offers a fundraising management and family engagement platform for schools and districts. Learn about our web-based school applications here!",
+    "description": [
+      "Livingtree offers a fundraising management and family engagement platform for schools and districts. Learn about our web-based school applications here!"
+    ],
     "technology": [
       {
         "id": 1,
@@ -174,7 +185,9 @@
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities"
+    ],
     "locations": [
       "USA",
       "India"
@@ -195,7 +208,9 @@
     "id": 4,
     "name": "Busch Jaeger",
     "full_name": "Busch Jaeger",
-    "description": "Control Touch transforms the office into an intelligent workplace. Whether blinds, \nlights, heating, air conditioning, door communication or scenes. Easy to remote control via a switch on the wall with the smartphone or tablet. This multifunctional remote control allows you to make adjustments later without the need for previous experience. With the help of a smartphone or tablet, all functions are easily configurable.",
+    "description": [
+      "Control Touch transforms the office into an intelligent workplace. Whether blinds, \nlights, heating, air conditioning, door communication or scenes. Easy to remote control via a switch on the wall with the smartphone or tablet. This multifunctional remote control allows you to make adjustments later without the need for previous experience. With the help of a smartphone or tablet, all functions are easily configurable."
+    ],
     "technology": [
       {
         "id": 1,
@@ -236,7 +251,9 @@
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities"
+    ],
     "locations": [
       "Germany",
       "India"
@@ -257,7 +274,9 @@
     "id": 5,
     "name": "TGLiving",
     "full_name": "Transguard Living",
-    "description": "Transguard Living offers home maintenance, cleaning and moving services in Dubai. As the first dedicated home services company to provide support across the UAE, we offer a comprehensive suite of services to individuals, landlords, property developers and real estate agents.",
+    "description": [
+      "Transguard Living offers home maintenance, cleaning and moving services in Dubai. As the first dedicated home services company to provide support across the UAE, we offer a comprehensive suite of services to individuals, landlords, property developers and real estate agents."
+    ],
     "technology": [
       {
         "id": 1,
@@ -301,7 +320,9 @@
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities"
+    ],
     "locations": [
       "United Arab Emirates"
     ],
@@ -321,7 +342,9 @@
     "id": 6,
     "name": "Hilti",
     "full_name": "Hilti",
-    "description": "Use the Hilti ON!Track app to manage your construction assets anytime, anywhere. Together with the Hilti ON!Track asset management solution, this mobile app brings you visibility and accountability to your entire fleet of assets. Download the Hilti ON!",
+    "description": [
+      "Use the Hilti ON!Track app to manage your construction assets anytime, anywhere. Together with the Hilti ON!Track asset management solution, this mobile app brings you visibility and accountability to your entire fleet of assets. Download the Hilti ON!"
+    ],
     "technology": [
       {
         "id": 1,
@@ -363,7 +386,9 @@
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities"
+    ],
     "locations": [
       "India"
     ],
@@ -383,7 +408,9 @@
     "id": 7,
     "name": "Hungama",
     "full_name": "Hungama",
-    "description": "Hungama.com is a leading digital entertainment company that launched digital entertainment storefront, which has over 2 million pieces of content across genres and languages in music tracks, movies, music videos & dialogues. Hungama Music the application will allow users to browse, search, subscribe and play the music, radio, video of his/her choice on Web, Android and iOS devices.",
+    "description": [
+      "Hungama.com is a leading digital entertainment company that launched digital entertainment storefront, which has over 2 million pieces of content across genres and languages in music tracks, movies, music videos & dialogues. Hungama Music the application will allow users to browse, search, subscribe and play the music, radio, video of his/her choice on Web, Android and iOS devices."
+    ],
     "technology": [
       {
         "id": 1,
@@ -425,7 +452,9 @@
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities"
+    ],
     "locations": [
       "India"
     ],
@@ -445,7 +474,9 @@
     "id": 8,
     "name": "DRC",
     "full_name": "Dubai Refreshment Pepsico",
-    "description": "DRC is a leading F&B manufacturing and distribution company in the lower gulf. It is strategically located at the heart of the new industrial hub midway between Dubai and Abu Dhabi, at Dubai Investment Park. The new site is state of the art that meets the current requirements of the industry.",
+    "description": [
+      "DRC is a leading F&B manufacturing and distribution company in the lower gulf. It is strategically located at the heart of the new industrial hub midway between Dubai and Abu Dhabi, at Dubai Investment Park. The new site is state of the art that meets the current requirements of the industry."
+    ],
     "technology": [
       {
         "id": 1,
@@ -488,7 +519,9 @@
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities"
+    ],
     "locations": [
       "United Arab Emirates"
     ],
@@ -505,7 +538,9 @@
     "id": 9,
     "name": "TGRewards",
     "full_name": "Tranguard Rewards",
-    "description": "Transguard company launches a rewards program which is a benefit scheme \nexclusively for all Transguard Group employees and their dependents (contract) \nemployees to avail of a wide range of discounted offers and value-added services \nfrom a list of partners all over the UAE. \n",
+    "description": [
+      "Transguard company launches a rewards program which is a benefit scheme \nexclusively for all Transguard Group employees and their dependents (contract) \nemployees to avail of a wide range of discounted offers and value-added services \nfrom a list of partners all over the UAE. \n"
+    ],
     "technology": [
       {
         "id": 1,
@@ -548,7 +583,9 @@
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities"
+    ],
     "locations": [
       "United Arab Emirates"
     ],
@@ -568,7 +605,9 @@
     "id": 10,
     "name": "Fleet Tracker",
     "full_name": "Fleet Tracker",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": [
+      ""
+    ],
     "technology": [
       {
         "id": 1,
@@ -611,7 +650,9 @@
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities"
+    ],
     "locations": [
       "United Arab Emirates"
     ],
@@ -628,7 +669,9 @@
     "id": 11,
     "name": "Employee Service Portal",
     "full_name": "Employee Service Portal",
-    "description": "The Employee Service Portal (ESP) is a simple way for Transguard employees to access tools and information to support their both work and life – anywhere, anytime! Current features: Raise queries directly to the HR Helpdesk.",
+    "description": [
+      "The Employee Service Portal (ESP) is a simple way for Transguard employees to access tools and information to support their both work and life – anywhere, anytime! Current features: Raise queries directly to the HR Helpdesk."
+    ],
     "technology": [
       {
         "id": 1,
@@ -671,7 +714,9 @@
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities"
+    ],
     "locations": [
       "United Arab Emirates"
     ],
@@ -689,7 +734,9 @@
     "id": 12,
     "name": "Life Insurance",
     "full_name": "HDFC Life Insurance",
-    "description": "description",
+    "description": [
+      "description"
+    ],
     "technology": [
       {
         "id": 1,
@@ -732,7 +779,9 @@
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities"
+    ],
     "locations": [
       "India"
     ],
@@ -749,7 +798,9 @@
     "id": 13,
     "name": "Toyota",
     "full_name": "Toyota",
-    "description": "description",
+    "description": [
+      "description"
+    ],
     "technology": [
       {
         "id": 1,
@@ -792,7 +843,9 @@
     "roles": [
       "Software Engineer, Full Stack developer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities"
+    ],
     "locations": [
       "Thailand ",
       " India"
@@ -810,7 +863,9 @@
     "id": 14,
     "name": "kenamental",
     "full_name": "kenamental",
-    "description": "description",
+    "description": [
+      "description"
+    ],
     "technology": [
       {
         "id": 1,
@@ -854,7 +909,9 @@
       "Trainer ",
       " Software Engineer"
     ],
-    "responsibilities": "responsibilities",
+    "responsibilities": [
+      "responsibilities"
+    ],
     "locations": [
       "India"
     ],

@@ -253,6 +253,29 @@ const Skill = ({skills}) => {
     )
 }
 
+// @ts-ignore
+const DescriptionList = ({desc}) => {
+    let arrDescription = desc as [string]
+    console.log(arrDescription);
+
+    return (
+        <div>
+            {
+                // @ts-ignore
+                arrDescription.map((descrip, index) => {
+                    return (
+
+
+                        <div className="text-start ps-1 mt-2 mb-1" key={index}>{descrip} </div>
+
+
+                    )
+                })
+
+            }
+        </div>
+    )
+}
 
 // @ts-ignore
 const Description = ({desc}) => {
@@ -264,7 +287,8 @@ const Description = ({desc}) => {
                     <p className="w-75 text-start project_Field">Description</p>
                 </div>
                 <div className="w-75 mb-2 text-start">
-                    <p>{desc}  </p>
+                    <DescriptionList desc={desc}/>
+
                 </div>
             </div>
         </div>
@@ -286,8 +310,36 @@ const Role = ({roles}) => {
         </div>
     )
 }
+
+// @ts-ignore
+const ResponsibilityList = ({responsibilities}) => {
+    let arrResponsibilities = responsibilities as [string]
+    console.log(arrResponsibilities);
+
+    return (
+        <ul>
+            {
+                // @ts-ignore
+                arrResponsibilities.map((responsibility, index) => {
+                    return (
+
+
+                        <li className="text-start ps-1 mt-2 mb-1" key={index}>{responsibility} </li>
+
+
+                    )
+                })
+
+            }
+        </ul>
+    )
+}
+
+
 // @ts-ignore
 const Responsibility = ({responsibilities}) => {
+
+
     return (
         <div className="card w-100 project_Value mb-5 project_Card">
             <div className="row row-cols-2 mb-2 mt-2 project_Row">
@@ -296,7 +348,9 @@ const Responsibility = ({responsibilities}) => {
                     <p className="w-75 text-start project_Field">Responsibility</p>
                 </div>
                 <div className="w-75 mb-2 text-start">
-                    <p> {responsibilities} </p>
+
+                    <ResponsibilityList responsibilities={responsibilities}/>
+
                 </div>
             </div>
         </div>
