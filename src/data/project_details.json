@@ -855,7 +855,9 @@
     "name": "Toyota",
     "full_name": "Toyota",
     "description": [
-      ""
+      "Built on a 360-degree connected & secure platform backed by Toyota’s human touch of dealers, service providers & support executives, Toyota i-Connect intends to deliver a Premium, Fully Integrated & Seamless Ownership Experience.",
+      "For connected Toyota cars, get relevant service info to your car.",
+      "Toyota i-Connect is a one-stop intelligent solution to provide an integrated & seamless experience to all Toyota vehicle owners. It offers many features to intelligently stay connected with the customer's car, family & Toyota. It is compatible with smartwatches and voice assistants in addition to smartphones. "
     ],
     "technology": [
       {
@@ -993,9 +995,9 @@
   {
     "id": 15,
     "name": "3D Secure",
-    "full_name": "broadcom 3-D Secure",
+    "full_name": "3-D Secure PAYMENT",
     "description": [
-      ""
+      "This Project is a client and server-based application which implements CA 3-D Secure. 3-D Secure is a protocol designed to be an additional security layer for online credit and debit card transactions. CA Rapid App Security provides End-user experience with Higher Security, and its Use Case is in Health Care, Finance, Retail and Automobile. It supports OAuth, OpenID and CA Advanced Authentication."
     ],
     "technology": [
       {
@@ -1041,10 +1043,10 @@
       " Software Engineer"
     ],
     "responsibilities": [
-      "Communicate the project plan to management and stakeholders.",
-      "Manage the definition of the project scope and project deliverables and ensure they are aligned with the project charter.",
-      "Involved in design, implement and deploy Web and Mobile Application and end to end product development and deliver to the business unit.",
-      "Initiation, Planning, Execution, Monitoring and Tracking the Projects."
+      "Implemented 3D Secure 2.0 for frictionless and cashless flow.",
+      "Created Custom Framework for 3D Secure implementation in iOS App.",
+      "Written Test Classes for MAS custom security Framework.",
+      "Done Regression Testing CA Mobile API Gateway and MAS Console web application."
     ],
     "locations": [
       "India"
@@ -1056,6 +1058,6 @@
     ],
     "android_app": [
     ],
-    "thumbnail": "kenamental"
+    "thumbnail": "3dsecure"
   }
 ]
