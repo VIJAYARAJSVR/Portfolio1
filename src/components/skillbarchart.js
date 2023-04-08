@@ -100,6 +100,7 @@ const SkillBarChart = ({widthh}) => {
                 })
 
 
+
             myChart.on('mouseover', function (mevent, dataValue, hee) {
                 tooltip.transition().duration(200)
                     .style('opacity', .9)
@@ -133,6 +134,31 @@ const SkillBarChart = ({widthh}) => {
             // .attr("dx", "-.8em")
             // .attr("dy", ".15em")
             // .attr("transform", "rotate(-65)" );
+
+
+            // myChart.selectAll("text")
+            //     .data(experience)
+            //     .enter()
+            //     .append("text")
+            //     .text(function(d) {
+            //         return Math.floor(parseInt(d));
+            //     })
+            //     .attr("x", function(d){
+            //         return xScale(d) + (xScale.bandwidth() / 2);
+            //     })
+            //     .attr("y", function(d){
+            //         let yposition = 0;
+            //         yposition = height - (yScale(d)/2) ;
+            //         console.log("The value of data is "+d+" height is "+height+" yscale value is "+yScale(d)+" position is "+yposition);
+            //         return yposition;
+            //
+            //     })
+            //
+            //     .attr("font-family" , "sans-serif")
+            //     .attr("font-size" , "40px")
+            //     .attr("font-weight" , "bold")
+            //     .attr("fill" , "black")
+            //     .attr("text-anchor", "middle")
 
 
             // svg.append('g').append("text")

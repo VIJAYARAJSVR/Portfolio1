@@ -187,6 +187,7 @@ const ContactDetails = () => {
                 >Playlist</h4
                 ></a>
                 </div>
+
                 <div className="row  row-cols-2 mt-2">
                     <div className="w-25"/>
                     <GrYoutube style={{color: '#fb2201'}} className="w-auto"/><a
@@ -194,6 +195,16 @@ const ContactDetails = () => {
                     href="https://www.youtube.com/@vijayarajfullstack"
                     target="_blank"><h4
                 >Video</h4
+                ></a>
+                </div>
+
+                <div className="row  row-cols-2 mt-2">
+                    <div className="w-25"/>
+                    <GrYoutube style={{color: '#fb2201'}} className="w-auto"/><a
+                    className="fst-italic text-start w-50 ContactDetailsLink"
+                    href=" https://www.youtube.com/@VijayFishHobbyist"
+                    target="_blank"><h4
+                >Hobbies</h4
                 ></a>
                 </div>
             </div>
