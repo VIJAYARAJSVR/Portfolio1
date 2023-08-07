@@ -3,6 +3,7 @@ import mypicture from './images/vijayaraj.jpg';
 import '../App.css';
 import projectList from '../data/project_details.json'
 import RecentProjects from "./recentprojects";
+import Marquee from "react-fast-marquee";
 import {MdEmail} from '@react-icons/all-files/md/MdEmail'
 import {AiFillPhone} from '@react-icons/all-files/ai/AiFillPhone'
 import {VscGithub} from '@react-icons/all-files/vsc/VscGithub'
@@ -19,11 +20,20 @@ import SkillBarChart from "./skillbarchart";
 
 const Home = () => {
     // const LinkedinStyle = { color: "blue", fontSize: "1.5em" }
+    const Marquee_Style = {color: "white", fontSize: "0.6em"}
 
     // @ts-ignore
     return (
         <div className="App-header">
-            <h1 className="mt-5 mb-5">VIJAYARAJ SUYAMBU</h1>
+            <h1 className="mt-3 mb-2">VIJAYARAJ SUYAMBU</h1>
+
+            <Marquee speed={120} pauseOnHover={true} className="mb-3" style={Marquee_Style}>
+                This is a dynamic (not static) website which is developed using React.js, Typescript, D3.js and
+                Bootstrap 5 from scratch ( NO templates used ).
+
+            </Marquee>
+
+
             <div className="container-sm container-md container-lg container-xl container-xxl">
                 <ContactDetails/>
                 <AboutMe/>
