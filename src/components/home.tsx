@@ -28,8 +28,8 @@ const Home = () => {
             <h1 className="mt-3 mb-2">VIJAYARAJ SUYAMBU</h1>
 
             <Marquee speed={120} pauseOnHover={true} className="mb-3" style={Marquee_Style}>
-                This is a dynamic (not static) website which is developed using React.js, Typescript, D3.js and
-                Bootstrap 5 from scratch ( NO templates used ).
+                This is a dynamic (not static) website that is developed using React.js, Typescript, D3.js and
+                Bootstrap 5 from scratch ( I didn't used any templates).
 
             </Marquee>
 
