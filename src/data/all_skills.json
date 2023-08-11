@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "category": "Back-end",
+    "skills": [
+      "Django",
+      "Node JS",
+      "Express JS",
+      "Ruby on Rails"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Front-end",
+    "skills": [
+      "Javascript",
+      "HTML5",
+      "CSS3",
+      "React JS",
+      "Angular"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Database",
+    "skills": [
+      "Firebase",
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "SQLServer"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Mobile",
+    "skills": [
+      "IOS",
+      "Android",
+      "Flutter",
+      "React Native"
+    ]
+  }
+]

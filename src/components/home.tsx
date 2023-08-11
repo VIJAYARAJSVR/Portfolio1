@@ -18,6 +18,8 @@ import {useLayoutEffect, useRef, useState} from "react";
 import TestBarChart from "./testbarchart";
 import SkillBarChart from "./skillbarchart";
 
+import All_Skill_List from '../data/all_skills.json'
+
 const Home = () => {
     // const LinkedinStyle = { color: "blue", fontSize: "1.5em" }
     const Marquee_Style = {color: "white", fontSize: "0.6em"}
@@ -29,7 +31,7 @@ const Home = () => {
 
             <Marquee speed={120} pauseOnHover={true} className="mb-3" style={Marquee_Style}>
                 This is a dynamic (not static) website that is developed using React.js, Typescript, D3.js and
-                Bootstrap 5 from scratch ( I didn't used any templates).
+                Bootstrap 5 from scratch ( I didn't use any templates here ).
 
             </Marquee>
 
@@ -42,6 +44,13 @@ const Home = () => {
                 {/*<div className="row row-cols-2"><p>Recent Projects</p> <NavLink to="AllProjects"> See All Projects </NavLink></div>*/}
                 <RecentProjectList/>
             </div>
+
+
+            <div className="container-sm container-md container-lg container-xl container-xxl">
+                <TechnicalSkillsList/>
+            </div>
+
+
         </div>
     );
 }
@@ -239,14 +248,13 @@ const AboutMe = () => {
 }
 
 const RecentProjectList = () => {
-
     // const sStyle = {fontSize: '30px',backgroundColor:'#367FC3', borderRadius:'10px',borderColor:'#3f4c6e',  color:'white'};
     return (
         <>
             {/*<h4
              className="mt-5">Recent Projects <span className="ms-2" style={{ fontSize:'20px' }}>(Click to see full details)</span> </h4
              >*/}
-            <div className="row row-cols-3 mt-5">
+            <div className="row row-cols-3 mt-2">
                 <div/>
                 <div>
                     <h4
@@ -270,10 +278,95 @@ const RecentProjectList = () => {
                 }
             </div>
         </>
+    )
+}
 
+interface Techno {
+    id: number;
+    category: string;
+    skills: [string];
+}
+
+// @ts-ignore
+const SpecificSkills = ({skills}) => {
+    let arrSkill = skills as [string]
+    console.log(arrSkill);
+
+    return (
+        <div className="mb-4">
+            {
+                // @ts-ignore
+                skills.map((techskill, index) => {
+
+                    let actualskill = techskill
+
+                    if (actualskill.trim() === "dotnet") {
+                        actualskill = ".NET"
+                    }
+
+                    let image = require(`./images/skills/ios.png`)
+
+                    try {
+                        image = require(`./images/skills/` + techskill.toLowerCase() + `.png`)
+                    } catch (e) {
+                        console.log(e);
+                        image = require(`./images/skills/default.png`)
+                    }
+
+                    let comma = (skills.length - 1 === index) ? "" : ",";
+
+
+                    return (
+                        <div className="me-3 d-inline-block" key={index}>
+                            <img className="project_skill_Image me-2"
+                                 src={image}
+                                 alt={actualskill}/>
+                            {actualskill} <span className="ms-1">{comma}</span>
+
+                        </div>
+
+                    )
+                })
+
+            }
+        </div>
+    )
+}
+
+const TechnicalSkillsList = () => {
+    return (
+        <div className="mt-3 mb-5">
+            <div className="row row-cols-3 mt-5 mb-5">
+                <div/>
+                <div>
+                    <h2 style={{color: 'darkkhaki'}}>Technical Skills </h2>
+                </div>
+
+            </div>
+            <div className="mt-3 mb-5">
+                {
+                    All_Skill_List.map((tech) => {
+                        return (
+                            <div className="row row-cols-2 mb-2 mt-2 ">
+
+                                <div className="col-2 text-start  fs-3" style={{color: 'darkkhaki'}}>
+                                    {tech.category}<span className="ms-1">:</span></div>
+                                <div className="col-10 text-start project_Field">
+                                    <SpecificSkills skills={tech.skills}/>
+                                </div>
+
+                            </div>
+                        )
+                    })
+                }
+
+            </div>
+
+        </div>
 
     )
 }
+
 
 const HomeCarousel = () => {
     return (

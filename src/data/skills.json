@@ -21,13 +21,13 @@
   },
   {
     "id": 5,
-    "name": "NodeJS",
+    "name": "Node.js",
     "experience": 5
   },
   {
     "id": 6,
     "name": "AWS",
-    "experience": 3
+    "experience": 3.5
   },
   {
     "id": 7,
@@ -41,12 +41,13 @@
   },
   {
     "id": 9,
-    "name": "Angular",
-    "experience": 4.3
+    "name": "( A.I )",
+    "experience": 1.9
   },
   {
     "id": 10,
     "name": "Ruby",
-    "experience": 2
+    "experience": 4
   }
 ]
+
