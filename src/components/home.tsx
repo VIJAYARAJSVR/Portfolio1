@@ -17,12 +17,18 @@ import {NavLink} from "react-router-dom";
 import {useLayoutEffect, useRef, useState} from "react";
 import TestBarChart from "./testbarchart";
 import SkillBarChart from "./skillbarchart";
+import PieChart1 from "./otherskillpiechart1";
+import PieChart2 from "./otherskillpiechart2";
+import PieChart3 from "./otherskillpiechart3";
 
 import All_Skill_List from '../data/all_skills.json'
+
+import {TransitionGroup, CSSTransition} from 'react-transition-group'
 
 const Home = () => {
     // const LinkedinStyle = { color: "blue", fontSize: "1.5em" }
     const Marquee_Style = {color: "white", fontSize: "0.6em"}
+    const Style_inline = {display: 'inline'}
 
     // @ts-ignore
     return (
@@ -232,17 +238,34 @@ const ContactDetails = () => {
     )
 }
 
+
 const AboutMe = () => {
     return (
         // <div className="d-flex flex-row flex-wrap overflow-auto">
         <div className="row row-cols-2 ">
             <img className="w-25 h-50" src={mypicture} height="350px" alt="logo"/>
-            <p className="fs-4 text-start w-75 " style={{lineHeight: 1.5}}>I am having <span
-                className="ms-1 mt-1 fs-2 fw-bold text-bg-warning p-1">7+</span> years of experience in software
-                development Such as mobile,
-                web and desktop development. So far I have development <span
-                    className="ms-1 mt-1 fs-2 fw-bold text-bg-warning p-1">15</span> software projects.
-            </p>
+            <div className="fs-4 text-start w-75 " style={{lineHeight: 1.5}}>
+                <div>
+                    I am having
+                    <span className="ms-2 mt-1 fs-2 fw-bold text-bg-warning p-1 me-2">7+</span>
+                    years of experience in software development Such as mobile, web and desktop development. So far I
+                    have development
+                    <span className="ms-2 mt-1 fs-2 fw-bold text-bg-warning p-1 me-2">15</span>
+                    software projects.
+                </div>
+
+                <div className="d-inline">
+                    {/*<TransitionGroup transitionName="example"*/}
+                    {/*                 transitionEnterTimeout={500}*/}
+                    {/*                 transitionLeaveTimeout={300} >*/}
+                    <PieChart1/>
+                    <PieChart2/>
+                    <PieChart3/>
+
+                    {/*</TransitionGroup>*/}
+                </div>
+            </div>
+
         </div>
     )
 }
@@ -254,7 +277,7 @@ const RecentProjectList = () => {
             {/*<h4
              className="mt-5">Recent Projects <span className="ms-2" style={{ fontSize:'20px' }}>(Click to see full details)</span> </h4
              >*/}
-            <div className="row row-cols-3 mt-2">
+            <div className="row row-cols-3 mt-5">
                 <div/>
                 <div>
                     <h4
@@ -279,12 +302,6 @@ const RecentProjectList = () => {
             </div>
         </>
     )
-}
-
-interface Techno {
-    id: number;
-    category: string;
-    skills: [string];
 }
 
 // @ts-ignore
@@ -317,7 +334,7 @@ const SpecificSkills = ({skills}) => {
 
 
                     return (
-                        <div className="me-3 d-inline-block" key={index}>
+                        <div className="me-3 d-inline-block fs-4" key={index}>
                             <img className="project_skill_Image me-2"
                                  src={image}
                                  alt={actualskill}/>
@@ -339,7 +356,7 @@ const TechnicalSkillsList = () => {
             <div className="row row-cols-3 mt-5 mb-5">
                 <div/>
                 <div>
-                    <h2 style={{color: 'darkkhaki'}}>Technical Skills </h2>
+                    <h3 style={{color: 'darkkhaki'}}>Technical Skills </h3>
                 </div>
 
             </div>
@@ -347,10 +364,10 @@ const TechnicalSkillsList = () => {
                 {
                     All_Skill_List.map((tech) => {
                         return (
-                            <div className="row row-cols-2 mb-2 mt-2 ">
+                            <div className="row row-cols-2 mb-3 mt-2 ">
 
-                                <div className="col-2 text-start  fs-3" style={{color: 'darkkhaki'}}>
-                                    {tech.category}<span className="ms-1">:</span></div>
+                                <h3 className="fs-4 col-2 text-start" style={{color: 'darkkhaki'}}>
+                                    {tech.category}<span className="ms-1">:</span></h3>
                                 <div className="col-10 text-start project_Field">
                                     <SpecificSkills skills={tech.skills}/>
                                 </div>
@@ -361,9 +378,7 @@ const TechnicalSkillsList = () => {
                 }
 
             </div>
-
         </div>
-
     )
 }
 

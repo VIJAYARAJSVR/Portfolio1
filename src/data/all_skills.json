@@ -11,17 +11,6 @@
   },
   {
     "id": 2,
-    "category": "Front-end",
-    "skills": [
-      "Javascript",
-      "HTML5",
-      "CSS3",
-      "React JS",
-      "Angular"
-    ]
-  },
-  {
-    "id": 3,
     "category": "Database",
     "skills": [
       "Firebase",
@@ -29,6 +18,17 @@
       "MongoDB",
       "MySQL",
       "SQLServer"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Front-end",
+    "skills": [
+      "Javascript",
+      "HTML5",
+      "CSS3",
+      "React JS",
+      "Angular"
     ]
   },
   {

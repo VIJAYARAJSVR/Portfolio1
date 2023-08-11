@@ -154,6 +154,31 @@ a {
     animation: 3s ease 0s infinite normal none running shake;
 }
 
+@keyframes oopacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#pie-container1, #pie-container2, #pie-container3 {
+    display: inline-block;
+}
+
+#pie-container1 {
+    animation: oopacity 19s 4;
+}
+
+#pie-container2 {
+    animation: oopacity 15s 6;
+}
+
+#pie-container3 {
+    animation: oopacity 12s 8;
+}
+
 div.scroll {
     margin: 4px;
     padding: 4px;
@@ -203,3 +228,6 @@ div.scroll {
         transform: translate(1px, -2px) rotate(-1deg);
     }
 }
+
+
+
