@@ -1,8 +1,16 @@
-import '../components/js/about.js';
+// import '../components/js/about.js';
 
 import '../components/styles/about.css';
+import {useEffect} from "react";
 
 function DisplayVideo() {
+
+    useEffect(() => {
+        // code to run after render goes here
+        RunAllJavascriptFunction();
+    }, []); // <-- empty array means 'run once'
+
+
     return <>
         <div className="row">
             <div className="col-2">
@@ -113,3 +121,115 @@ const About = () => {
 
 
 export default About
+
+
+function playMedia() {
+    try {
+
+        let media = document.querySelector('#videoelement');
+        // @ts-ignore
+        media.play();
+    } catch (e) {
+        console.log(e);
+    }
+
+
+}
+
+
+function pauseMedia() {
+    try {
+        let media = document.querySelector('#videoelement');
+        // @ts-ignore
+        media.pause();
+    } catch (e) {
+        console.log(e);
+    }
+
+
+}
+
+
+// @ts-ignore
+function seekMedia(e) {
+    try {
+        console.log("processing seekMedia");
+        let media = document.querySelector('#videoelement');
+        let rail = document.querySelector('#controlbarrail');
+        // @ts-ignore
+        media.currentTime = e.offsetX / rail.offsetWidth * media.duration;
+    } catch (e) {
+        console.log(e);
+    }
+
+
+}
+
+
+function updateTime() {
+    let media = document.querySelector('#videoelement');
+    let position = document.querySelector('#positiondisplay');
+    let duration = document.querySelector('#durationdisplay');
+// @ts-ignore
+    position.textContent = timeDisplay(media.currentTime);
+// @ts-ignore
+    duration.textContent = timeDisplay(media.duration);
+// @ts-ignore
+    let currentlength = rail.clientWidth * (media.currentTime / media.duration);
+    let fill = document.querySelector('#controlbarfill');
+    // @ts-ignore
+    fill.style.width = currentlength + 'px';
+}
+
+function timeDisplay(t: number) {
+    let minutes = Math.floor(t / 60);
+    let seconds = Math.floor(t - minutes * 60);
+    let minutevalue;
+    if (minutes < 10) {
+        minutevalue = '0' + minutes;
+    } else {
+        minutevalue = minutes;
+    }
+    let secondvalue;
+    if (seconds < 10) {
+        secondvalue = '0' + seconds;
+    } else {
+        secondvalue = seconds;
+    }
+    return minutevalue + ':' + secondvalue;
+}
+
+
+function RunAllJavascriptFunction() {
+    try {
+
+
+        const media = document.querySelector('#videoelement');
+        const play = document.querySelector('#playbutton');
+        const pause = document.querySelector('#pausebutton');
+        const rail = document.querySelector('#controlbarrail');
+        const fill = document.querySelector('#controlbarfill');
+
+
+        try {
+            play?.addEventListener('click', playMedia);
+            pause?.addEventListener('click', pauseMedia);
+            rail?.addEventListener('click', seekMedia);
+            fill?.addEventListener('click', seekMedia);
+            media?.addEventListener('loadedmetadata', updateTime);
+            media?.addEventListener('timeupdate', updateTime);
+        } catch (e) {
+            console.log(e);
+        }
+
+
+    } catch (e) {
+        console.log(e);
+    }
+}
+
+
+
+
+
+

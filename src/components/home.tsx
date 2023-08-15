@@ -14,7 +14,7 @@ import {FaStackOverflow} from '@react-icons/all-files/fa/FaStackOverflow'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from 'react-responsive-carousel'
 import {NavLink} from "react-router-dom";
-import {useLayoutEffect, useRef, useState} from "react";
+import {useEffect, useLayoutEffect, useRef, useState} from "react";
 import TestBarChart from "./testbarchart";
 import SkillBarChart from "./skillbarchart";
 import PieChart1 from "./otherskillpiechart1";
@@ -26,6 +26,15 @@ import All_Skill_List from '../data/all_skills.json'
 import {TransitionGroup, CSSTransition} from 'react-transition-group'
 
 const Home = () => {
+
+    useEffect(() => {
+        // code to run after render goes here
+        const audioEle = document.querySelector("#audiocontrol");
+        // @ts-ignore
+        // audioEle.play();
+
+    }, []); // <-- empty array means 'run once
+
     // const LinkedinStyle = { color: "blue", fontSize: "1.5em" }
     const Marquee_Style = {color: "white", fontSize: "0.6em"}
     const Style_inline = {display: 'inline'}
@@ -33,15 +42,15 @@ const Home = () => {
     // @ts-ignore
     return (
         <div className="App-header">
-            <h1 className="mt-3 mb-2">VIJAYARAJ SUYAMBU</h1>
-
+            <div>
+                <h1 className=" mb-2 ">VIJAYARAJ SUYAMBU</h1>
+                <MyAudio/>
+            </div>
             <Marquee speed={120} pauseOnHover={true} className="mb-3" style={Marquee_Style}>
                 This is a dynamic (not static) website that is developed using React.js, Typescript, D3.js and
                 Bootstrap 5 from scratch ( I didn't use any templates here ).
 
             </Marquee>
-
-
             <div className="container-sm container-md container-lg container-xl container-xxl">
                 <ContactDetails/>
                 <AboutMe/>
@@ -50,13 +59,9 @@ const Home = () => {
                 {/*<div className="row row-cols-2"><p>Recent Projects</p> <NavLink to="AllProjects"> See All Projects </NavLink></div>*/}
                 <RecentProjectList/>
             </div>
-
-
             <div className="container-sm container-md container-lg container-xl container-xxl">
                 <TechnicalSkillsList/>
             </div>
-
-
         </div>
     );
 }
@@ -403,3 +408,13 @@ const HomeCarousel = () => {
 }
 
 
+const MyAudio = () => {
+    return (
+        <div className="d-inline-block">
+            <audio controls preload="metadata" id="audiocontrol">
+                <source src={require(`../media/audio.mp3`)}/>
+            </audio>
+        </div>
+    )
+
+}
