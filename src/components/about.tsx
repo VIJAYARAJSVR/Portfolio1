@@ -157,7 +157,9 @@ function seekMedia(e) {
         let media = document.querySelector('#videoelement');
         let rail = document.querySelector('#controlbarrail');
         // @ts-ignore
-        media.currentTime = e.offsetX / rail.offsetWidth * media.duration;
+        let offsetWidth1 = rail.offsetWidth
+        // @ts-ignore
+        media.currentTime = e.offsetX / offsetWidth1 * media.duration;
     } catch (e) {
         console.log(e);
     }
@@ -170,12 +172,15 @@ function updateTime() {
     let media = document.querySelector('#videoelement');
     let position = document.querySelector('#positiondisplay');
     let duration = document.querySelector('#durationdisplay');
+    let rail = document.querySelector('#controlbarrail');
 // @ts-ignore
     position.textContent = timeDisplay(media.currentTime);
 // @ts-ignore
     duration.textContent = timeDisplay(media.duration);
 // @ts-ignore
-    let currentlength = rail.clientWidth * (media.currentTime / media.duration);
+    let clientWidth1 = rail.clientWidth;
+// @ts-ignore
+    let currentlength = clientWidth1 * (media.currentTime / media.duration);
     let fill = document.querySelector('#controlbarfill');
     // @ts-ignore
     fill.style.width = currentlength + 'px';
