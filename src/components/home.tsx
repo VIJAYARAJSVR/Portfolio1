@@ -364,7 +364,7 @@ const TechnicalSkillsList = () => {
                 {
                     All_Skill_List.map((tech) => {
                         return (
-                            <div className="row row-cols-2 mb-3 mt-2 ">
+                            <div className="row row-cols-2 mb-3 mt-2 " key={tech.id}>
 
                                 <h3 className="fs-4 col-2 text-start" style={{color: 'darkkhaki'}}>
                                     {tech.category}<span className="ms-1">:</span></h3>

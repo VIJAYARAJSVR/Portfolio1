@@ -101,7 +101,7 @@ function PieChart3() {
             .attr('d', arcGenerator)
             .style('fill', (_, i) => colorScale(i))
             .style('stroke', '#ffffff')
-            .style('stroke-width', 0);
+            .style('stroke-width', 1);
 
         // Append text labels
         arc

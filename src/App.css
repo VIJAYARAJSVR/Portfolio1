@@ -167,9 +167,9 @@ a {
     display: inline-block;
 }
 
-#pie-container1 {
-    animation: oopacity 19s 4;
-}
+/*#pie-container1 {*/
+/*    animation: oopacity 19s 4;*/
+/*}*/
 
 #pie-container2 {
     animation: oopacity 15s 6;

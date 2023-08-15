@@ -2,6 +2,8 @@ import React, {useEffect} from 'react';
 import * as d3 from 'd3';
 
 // https://ihsavru.medium.com/react-d3-implementing-a-pie-chart-dc7bf13ff418
+// var toggle = true;
+
 
 function PieChart1() {
 
@@ -11,15 +13,15 @@ function PieChart1() {
     //     innerRadius,
     // } = props;
 
-    const data = [
-        {label: 'Teamwork', value: 20},
-        {label: 'Technical', value: 30},
-        {label: 'Communication', value: 28},
-        {label: 'Creativity', value: 20}
-    ];
+    // const data = [
+    //     {label: 'Teamwork', value: 20},
+    //     {label: 'Technical', value: 30},
+    //     {label: 'Communication', value: 28},
+    //     {label: 'Creativity', value: 20}
+    // ];
 
     const outerRadius = 150;
-    const innerRadius = 5;
+    const innerRadius = 1;
 
     const margin = {
         top: 15, right: 10, bottom: 15, left: 10
@@ -34,14 +36,28 @@ function PieChart1() {
     //     .domain([0, data.length]);
     // var colorScale = d3.scaleSequential(d3.interpolateBlues) .domain([0, data.length]);
 
-    var colorScale = d3.scaleOrdinal(d3.schemeBlues[6]);
+    const colorScale = d3.scaleOrdinal(d3.schemeBlues[6]);
 
     useEffect(() => {
-        // setTimeout(() => {    drawChart();}, 100);
+
+        // const interval = setInterval(() => {
+        //     console.log('This will be called every 2 seconds');
+        //         drawChart();
+        // }, 2000);
+        //
+        // return () => clearInterval(interval);
         drawChart();
-    }, [data, drawChart]);
+
+    }, [drawChart]);
 
     function drawChart() {
+        const data = [
+            {label: 'Teamwork', value: 20},
+            {label: 'Technical', value: 30},
+            {label: 'Communication', value: 28},
+            {label: 'Creativity', value: 20}
+        ];
+
         // Remove the old svg
         d3.select('#pie-container1')
             .select('svg')
@@ -77,7 +93,8 @@ function PieChart1() {
             .attr('d', arcGenerator)
             .style('fill', (_, i) => colorScale(i))
             .style('stroke', '#ffffff')
-            .style('stroke-width', 0);
+            .style('stroke-width', 1);
+
 
         // Append text labels
         arc
@@ -94,11 +111,44 @@ function PieChart1() {
                 const [x, y] = arcGenerator.centroid(d);
                 return `translate(${x}, ${y})`;
             });
-
-
     }
 
     return <div id="pie-container1"/>;
 }
+
+// window.setInterval(function() {
+//     if (toggle) {
+//         console.log("toggling");
+//         const data1 = [
+//             {label: 'Teamwork', value: 20},
+//             {label: 'Technical', value: 30},
+//             {label: 'Communication', value: 28},
+//             {label: 'Creativity', value: 20}
+//         ];
+//         toggle = false;
+//         PieChart1();
+//     } else {
+//         console.log("another toggling");
+//         const data2 = [
+//             {label: 'Teamwork', value: 20},
+//             {label: 'Technical', value: 30}
+//         ];
+//         toggle = true;
+//         PieChart1();
+//     }
+//
+// }, 3500);
+
+
+// var toggle = true;
+// domPieChart.call(pieChart.data(dataset1));
+// window.setInterval(function() {
+//     if (toggle) {
+//         domPieChart.call(pieChart.data(dataset2));
+//     } else {
+//         domPieChart.call(pieChart.data(dataset1));
+//     }
+//     toggle = !toggle;
+// }, 3500);
 
 export default PieChart1;

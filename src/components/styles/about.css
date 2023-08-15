@@ -1,0 +1,63 @@
+/*button {*/
+/*    background-color: #4e4d4d;*/
+/*    border-color: rgb(82, 82, 82);*/
+/*    border-radius: 8px;*/
+/*    border-style: solid;*/
+/*    color: rgb(180, 180, 180);*/
+/*    font-size: 1.2rem;*/
+/*    font-weight: 600;*/
+/*    height: 36px;*/
+/*}*/
+
+
+#mediacontrols {
+    width: 820px;
+    /*margin-top: 0.3rem;*/
+}
+
+#timedisplay {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(180, 180, 180);
+    /*font-size: 1.4rem;*/
+}
+
+#controlbarrail {
+    background-color: darkred;
+    height: 10px;
+    margin-bottom: 0.6rem;
+    cursor: pointer;
+
+}
+
+#controlbarfill {
+    background-color: rgb(236, 216, 172);
+    height: 10px;
+    cursor: pointer;
+}
+
+#playbutton, #pausebutton {
+    color: rgb(236, 216, 172);
+    background-color: #4e4d4d;
+}
+
+/*#playbutton, #pausebutton {*/
+/*     background-color: #367FC3;*/
+/*     border-style: solid;*/
+/*     border-width: thick;*/
+/*     border-color: #3f4c6e;*/
+/*     border-radius: 10px;*/
+/*     font-size: 30px;*/
+/*     color: white;*/
+/*    height: 60px;*/
+/*    padding: 5px;*/
+
+/*    width: 100px;*/
+
+/* }*/
+
+/*.btn-xl {*/
+/*    padding: 10px 20px;*/
+/*    font-size: 20px;*/
+/*    border-radius: 10px;*/
+/*    width:50%;*/
+/*}*/

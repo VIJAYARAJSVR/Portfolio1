@@ -21,7 +21,7 @@ function PieChart2() {
     // console.log( "THE DATA IS "+ data);
 
     const outerRadius = 150;
-    const innerRadius = 5;
+    const innerRadius = 1;
 
     const margin = {
         top: 15, right: 10, bottom: 15, left: 10
@@ -78,7 +78,7 @@ function PieChart2() {
             .attr('d', arcGenerator)
             .style('fill', (_, i) => colorScale(i))
             .style('stroke', '#ffffff')
-            .style('stroke-width', 0);
+            .style('stroke-width', 1);
 
         // Append text labels
         arc
