@@ -12,13 +12,21 @@ function PieChart3() {
     //     innerRadius,
     // } = props;
 
-    const data = [
+    const data1 = [
         {label: 'Python', value: 40},
         {label: 'R', value: 10},
         {label: 'Machine Learning', value: 20},
         {label: 'Artificial Intelligence', value: 40},
         {label: 'SQL', value: 15}
 
+    ];
+
+    const data2 = [
+        {label: 'Django', value: 40},
+        {label: 'R', value: 10},
+        {label: 'Data Mining', value: 20},
+        {label: 'Data Visualization', value: 40},
+        {label: 'SQL', value: 15}
     ];
     // console.log( "THE DATA IS "+ data);
 
@@ -60,10 +68,35 @@ function PieChart3() {
     //     // wrap to 480 x 960 pixels
     //     .bounds({height: 10, width: 10});
 
+    // useEffect(() => {
+    //     // setTimeout(() => {    drawChart();}, 100);
+    //     drawChart();
+    // }, [data, drawChart]);
+
+    var data = [];
+    data = data2;
+    let toggle = false;
+
     useEffect(() => {
-        // setTimeout(() => {    drawChart();}, 100);
-        drawChart();
-    }, [data, drawChart]);
+        console.log("Executing from use Effect");
+        const interval = setInterval(() => {
+            console.log('This will be called every 4 seconds');
+            // toggle = !toggle;
+            // data = toggle? data1 :  data2;
+            if (toggle) {
+                toggle = false;
+                data = data1;
+                drawChart();
+            } else {
+                toggle = true;
+                data = data2;
+                drawChart();
+            }
+        }, 4000);
+        return () => clearInterval(interval);
+    }, []);
+
+
 
     function drawChart() {
         // Remove the old svg

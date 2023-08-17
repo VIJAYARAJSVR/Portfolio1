@@ -68,7 +68,6 @@ const Home = () => {
 
 export default Home
 
-
 const ContactDetails = () => {
     const ref = useRef(null);
     const [width, setWidth] = useState(0);
@@ -243,13 +242,15 @@ const ContactDetails = () => {
     )
 }
 
-
 const AboutMe = () => {
     return (
         // <div className="d-flex flex-row flex-wrap overflow-auto">
         <div className="row row-cols-2 ">
-            <img className="w-25 h-50" src={mypicture} height="350px" alt="logo"/>
+
+            <img className="w-25 h-50" src={mypicture} height="400px" alt="logo"/>
+
             <div className="fs-4 text-start w-75 " style={{lineHeight: 1.5}}>
+
                 <div>
                     I am having
                     <span className="ms-2 mt-1 fs-2 fw-bold text-bg-warning p-1 me-2">7+</span>
@@ -258,6 +259,8 @@ const AboutMe = () => {
                     <span className="ms-2 mt-1 fs-2 fw-bold text-bg-warning p-1 me-2">15</span>
                     software projects.
                 </div>
+
+                {/*<div className="text-center">Skills</div>*/}
 
                 <div className="d-inline">
                     {/*<TransitionGroup transitionName="example"*/}

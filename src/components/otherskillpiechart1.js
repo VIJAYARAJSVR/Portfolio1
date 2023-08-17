@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import * as d3 from 'd3';
+import data from "bootstrap/js/src/dom/data";
 
 // https://ihsavru.medium.com/react-d3-implementing-a-pie-chart-dc7bf13ff418
 // var toggle = true;
@@ -13,12 +14,21 @@ function PieChart1() {
     //     innerRadius,
     // } = props;
 
-    // const data = [
-    //     {label: 'Teamwork', value: 20},
-    //     {label: 'Technical', value: 30},
-    //     {label: 'Communication', value: 28},
-    //     {label: 'Creativity', value: 20}
-    // ];
+    const data1 = [
+        {label: 'Teamwork', value: 20},
+        {label: 'Technical', value: 30},
+        {label: 'Communication', value: 28},
+        {label: 'Creativity', value: 20}
+    ];
+
+    const data2 = [
+        {label: 'Active Listener', value: 20},
+        {label: 'Collaboration', value: 30},
+        {label: 'Problem Solver', value: 28},
+        {label: 'Creativity', value: 20}
+    ];
+
+    var data = [];
 
     const outerRadius = 150;
     const innerRadius = 1;
@@ -38,26 +48,31 @@ function PieChart1() {
 
     const colorScale = d3.scaleOrdinal(d3.schemeBlues[6]);
 
+
+    data = data2;
+    let toggle = false;
+
     useEffect(() => {
+        console.log("Executing from use Effect");
+        const interval = setInterval(() => {
+            console.log('This will be called every 4 seconds');
+            // toggle = !toggle;
+            // data = toggle? data1 :  data2;
+            if (toggle) {
+                toggle = false;
+                data = data1;
+                drawChart();
+            } else {
+                toggle = true;
+                data = data2;
+                drawChart();
+            }
+        }, 4000);
+        return () => clearInterval(interval);
+    }, []);
 
-        // const interval = setInterval(() => {
-        //     console.log('This will be called every 2 seconds');
-        //         drawChart();
-        // }, 2000);
-        //
-        // return () => clearInterval(interval);
-        drawChart();
-
-    }, [drawChart]);
 
     function drawChart() {
-        const data = [
-            {label: 'Teamwork', value: 20},
-            {label: 'Technical', value: 30},
-            {label: 'Communication', value: 28},
-            {label: 'Creativity', value: 20}
-        ];
-
         // Remove the old svg
         d3.select('#pie-container1')
             .select('svg')
