@@ -2,6 +2,7 @@ import logo from '../images/logo.svg';
 import mypicture from './images/vijayaraj.jpg';
 import '../App.css';
 import projectList from '../data/project_details.json'
+import companyList from '../data/companies.json'
 import RecentProjects from "./recentprojects";
 import Marquee from "react-fast-marquee";
 import {MdEmail} from '@react-icons/all-files/md/MdEmail'
@@ -25,6 +26,38 @@ import All_Skill_List from '../data/all_skills.json'
 
 import {TransitionGroup, CSSTransition} from 'react-transition-group'
 
+function Companies(props: { style: { color: string; fontSize: string }, style1: { width: string; height: string } }) {
+    return <Marquee speed={80} pauseOnHover={true} className="mb-3" style={props.style}>
+
+        {/*<img className="card-img-top h-25 img-fluid" style={props.style1}*/}
+        {/*     src={require(`./images/companies/ABB.png`)}*/}
+        {/*     alt={"description"}/>*/}
+
+        {
+            companyList.map((companydt, index) => {
+                return (
+                    <div className={"card ms-5"}>
+                        <div className={"card body p-2"}>
+                            <img className="card-img-top"
+                                 style={props.style1}
+                                 src={require(`./images/companies/${companydt.image}.png`)}
+                                 alt={companydt.name}/>
+                        </div>
+
+                        <div className="card-footer">
+                            <h5 className=""
+                                style={{color: "black", fontWeight: "bold"}}>{companydt.name}</h5>
+                        </div>
+                    </div>
+                )
+            })
+
+        }
+
+
+    </Marquee>;
+}
+
 const Home = () => {
 
     useEffect(() => {
@@ -33,11 +66,34 @@ const Home = () => {
         // @ts-ignore
         // audioEle.play();
 
+        setTimeout(() => {
+
+            window.scroll(0, 1000);
+
+        }, 7000);
+
+
+        setTimeout(() => {
+
+            window.scroll(0, 1900);
+
+
+        }, 8000);
+
+        setTimeout(() => {
+
+            window.scroll(0, 0);
+
+
+        }, 12000);
+
+
     }, []); // <-- empty array means 'run once
 
     // const LinkedinStyle = { color: "blue", fontSize: "1.5em" }
     const Marquee_Style = {color: "white", fontSize: "0.6em"}
     const Style_inline = {display: 'inline'}
+    const Style_company_marquee = {width: "100px", height: "65px", margin: "auto"}
 
     // @ts-ignore
     return (
@@ -46,20 +102,23 @@ const Home = () => {
                 <h1 className=" mb-2 ">VIJAYARAJ SUYAMBU</h1>
                 <MyAudio/>
             </div>
+
             <Marquee speed={120} pauseOnHover={true} className="mb-3" style={Marquee_Style}>
                 This is a dynamic (not static) website that is developed using React.js, Typescript, D3.js and
                 Bootstrap 5 from scratch ( I didn't use any templates here ).
-
             </Marquee>
+
             <div className="container-sm container-md container-lg container-xl container-xxl">
                 <ContactDetails/>
                 <AboutMe/>
+                <h3 className={"mt-5 mb-4"} style={{color: 'darkkhaki'}}>
+                    Companies which I done projects for...
+                </h3>
+                <Companies style={Marquee_Style} style1={Style_company_marquee}/>
             </div>
+
             <div className="container-sm container-md container-lg container-xl container-xxl">
-                {/*<div className="row row-cols-2"><p>Recent Projects</p> <NavLink to="AllProjects"> See All Projects </NavLink></div>*/}
                 <RecentProjectList/>
-            </div>
-            <div className="container-sm container-md container-lg container-xl container-xxl">
                 <TechnicalSkillsList/>
             </div>
         </div>

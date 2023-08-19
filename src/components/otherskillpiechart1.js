@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useRef} from 'react';
 import * as d3 from 'd3';
 import data from "bootstrap/js/src/dom/data";
 
@@ -51,6 +51,7 @@ function PieChart1() {
 
     data = data2;
     let toggle = false;
+    // const ttoggle:Boolean = useRef();
 
     useEffect(() => {
         console.log("Executing from use Effect");
@@ -68,7 +69,11 @@ function PieChart1() {
                 drawChart();
             }
         }, 4000);
+
+
         return () => clearInterval(interval);
+
+
     }, []);
 
 

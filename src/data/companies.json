@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "ABB",
+    "image": "ABB"
+  },
+  {
+    "id": 2,
+    "name": "HILTI",
+    "image": "HILTI"
+  },
+  {
+    "id": 3,
+    "name": "LIVINGTREE",
+    "image": "LIVINGTREE"
+  },
+  {
+    "id": 4,
+    "name": "PEPSICO",
+    "image": "PEPSI"
+  },
+  {
+    "id": 5,
+    "name": "BUSCH JAEGER",
+    "image": "BUSH"
+  },
+  {
+    "id": 6,
+    "name": "HUNGAMA",
+    "image": "HUNGAMA"
+  },
+  {
+    "id": 7,
+    "name": "TOYOTA",
+    "image": "TOYOTA"
+  },
+  {
+    "id": 8,
+    "name": "TATA",
+    "image": "TATA"
+  },
+  {
+    "id": 9,
+    "name": "KENAMENTAL",
+    "image": "KENAMENTAL"
+  },
+  {
+    "id": 10,
+    "name": "HDFC",
+    "image": "HDFC"
+  },
+  {
+    "id": 11,
+    "name": "TRANSGUARD",
+    "image": "TRANSGUARD"
+  }
+]
+
