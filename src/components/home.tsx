@@ -85,7 +85,7 @@ const Home = () => {
             window.scroll(0, 0);
 
 
-        }, 12000);
+        }, 10000);
 
 
     }, []); // <-- empty array means 'run once
