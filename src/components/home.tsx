@@ -313,8 +313,8 @@ const AboutMe = () => {
                     I am having
                     <span className="ms-2 mt-1 fs-2 fw-bold text-bg-warning p-1 me-2">7+</span>
                     years of experience in software development Such as mobile, web and desktop development. So far I
-                    have development
-                    <span className="ms-2 mt-1 fs-2 fw-bold text-bg-warning p-1 me-2">15</span>
+                    have developed
+                    <span className="ms-2 mt-1 fs-2 fw-bold text-bg-warning p-1 me-2">15+</span>
                     software projects.
                 </div>
 
