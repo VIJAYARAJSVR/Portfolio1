@@ -350,7 +350,7 @@ const RecentProjectList = () => {
                     >Recent Projects </h4
                     ><h5>(Click to see full details)</h5>
                 </div>
-                <div><NavLink to="/Portfolio/AllProjects">
+                <div><NavLink to="/Portfolio1/AllProjects">
                     <button className="w-100 h-100 anim btnSeeAll">Click to see All Projects</button>
                 </NavLink></div>
 

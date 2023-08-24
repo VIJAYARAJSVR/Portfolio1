@@ -10,7 +10,7 @@ const RecentProjects = ({project}) => {
     return (
         <div className="col">
             <div className="card h-200 mb-5 mt-2">
-                <Link to={"/Portfolio/ProjectDetail/" + project.id}>
+                <Link to={"/Portfolio1/ProjectDetail/" + project.id}>
                     <div className="card-body">
                         {/*<img className="card-img-top" src={logo} alt="logo"/>*/}
 

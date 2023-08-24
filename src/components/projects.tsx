@@ -62,7 +62,7 @@ const Projects = ({projectList}) => {
                                 <div className="col">
                                     {/*<div className="card h-200 mt-2 mb-2"  style={{marginRight: "40px"}}>*/}
                                     <div className="card h-200 mb-3 mt-2">
-                                        <Link to={"/Portfolio/ProjectDetail/" + project.id}>
+                                        <Link to={"/Portfolio1/ProjectDetail/" + project.id}>
                                             <div className="card-body">
                                                 {/*<img className="card-img-top" src={logo} alt="logo"/>*/}
                                                 <img className="card-img-top h-25"
@@ -83,7 +83,6 @@ const Projects = ({projectList}) => {
                                     </div>
                                 </div>
                             )
-
                         })
                     }
 
