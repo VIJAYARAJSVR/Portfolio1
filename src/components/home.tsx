@@ -208,8 +208,7 @@ const ContactDetails = () => {
                     <div className="w-auto "/>
                     <div
                         className="fst-italic text-start w-75 "
-                    ><h4
-                    /></div>
+                    ><h4/></div>
                 </div>
 
                 <div className="row  row-cols-2 mt-2">

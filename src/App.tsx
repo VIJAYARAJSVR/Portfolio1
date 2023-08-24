@@ -19,13 +19,13 @@ function App() {
             <AppHeader/>
             <Routes>
 
-                <Route path="Portfolio" element={<Home/>}/>
-                <Route path="Portfolio/Home" element={<Home/>}/>
-                <Route path="Portfolio/AllProjects" element={<Projects projectList={projectList}/>}/>
-                <Route path="Portfolio/ProjectDetail/:projectId" element={<ProjectDetails/>}/>
-                <Route path="Portfolio/Certification" element={<Certification/>}/>
-                <Route path="Portfolio/Dashboard" element={<Dashboard/>}/>
-                <Route path="Portfolio/About" element={<About/>}/>
+                <Route path="Portfolio1" element={<Home/>}/>
+                <Route path="Portfoli11/Home" element={<Home/>}/>
+                <Route path="Portfolio1/AllProjects" element={<Projects projectList={projectList}/>}/>
+                <Route path="Portfolio1/ProjectDetail/:projectId" element={<ProjectDetails/>}/>
+                <Route path="Portfolio1/Certification" element={<Certification/>}/>
+                <Route path="Portfolio1/Dashboard" element={<Dashboard/>}/>
+                <Route path="Portfolio1/About" element={<About/>}/>
                 <Route path="*" element={<NotFound/>}/>
 
             </Routes>
