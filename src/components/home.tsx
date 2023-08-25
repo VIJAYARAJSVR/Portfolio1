@@ -103,10 +103,10 @@ const Home = () => {
                 <MyAudio/>
             </div>
 
-            <Marquee speed={120} pauseOnHover={true} className="mb-3" style={Marquee_Style}>
-                This is a dynamic (not static) website that is developed using React.js, Typescript, D3.js and
-                Bootstrap 5 from scratch ( I didn't use any templates here ).
-            </Marquee>
+            {/*<Marquee speed={120} pauseOnHover={true} className="mb-3" style={Marquee_Style}>*/}
+            {/*    This is a dynamic (not static) website that is developed using React.js, Typescript, D3.js and*/}
+            {/*    Bootstrap 5 from scratch ( I didn't use any templates here ).*/}
+            {/*</Marquee>*/}
 
             <div className="container-sm container-md container-lg container-xl container-xxl">
                 <ContactDetails/>
