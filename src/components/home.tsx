@@ -109,7 +109,8 @@ const Home = () => {
             {/*</Marquee>*/}
 
             <Marquee speed={120} pauseOnHover={true} className="mb-3" style={Marquee_Style}>
-                Thank you for visiting my portfolio website. I have developed this website from scratch ( I didn't use any templates).
+                Thank you for visiting my portfolio website. I have developed this website from scratch ( I didn't use
+                any templates).
             </Marquee>
 
             <div className="container-sm container-md container-lg container-xl container-xxl">

@@ -6,7 +6,9 @@
       "Django",
       "Node JS",
       "Express JS",
-      "Ruby on Rails"
+      "Ruby on Rails",
+      "Laravel",
+      "PHP"
     ]
   },
   {
@@ -40,5 +42,16 @@
       "Flutter",
       "React Native"
     ]
+  },
+  {
+    "id": 5,
+    "category": "Others",
+    "skills": [
+      "Shopify",
+      "WordPress"
+    ]
   }
 ]
+
+
+

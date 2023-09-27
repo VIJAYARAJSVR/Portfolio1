@@ -1,7 +1,9 @@
 // import '../components/js/about.js';
 
 import '../components/styles/about.css';
+// import '../components/js/profile.js';
 import {useEffect} from "react";
+
 
 function DisplayVideo() {
 
@@ -82,6 +84,15 @@ const About = () => {
                     development.&nbsp;&nbsp;********</p>
 
                 <DisplayVideo/>
+
+                <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark"
+                     datatype="VERTICAL" data-vanity="vijay-fullstack" data-version="v1">
+                    <a
+                        className="badge-base__link LI-simple-link"
+                        href="https://ae.linkedin.com/in/vijay-fullstack?trk=profile-badge">Vijayaraj Suyambu
+                    </a>
+                </div>
+
 
                 <p className="fs-4 mb-4">
                     India , officially the Republic of India is a country in South Asia. It is the seventh-largest
